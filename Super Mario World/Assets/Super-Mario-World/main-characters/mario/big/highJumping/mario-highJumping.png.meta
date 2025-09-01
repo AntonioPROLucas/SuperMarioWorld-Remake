@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mario-highJumping_0: 8368074156946171774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
