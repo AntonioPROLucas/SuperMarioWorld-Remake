@@ -7,6 +7,7 @@ TagManager:
   - CoinText
   - ScoreText
   - LivesText
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -15,12 +16,12 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - InteractionZone
   - DeathZone
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Shell
+  - Wall
+  - Enemy
   - 
   - 
   - 

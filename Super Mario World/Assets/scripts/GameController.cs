@@ -16,6 +16,11 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI coinText;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI livesText;
+    // O índice do combo de pulos
+    private int stompComboIndex = 0; 
+    
+    // O vetor com a sequência de pontos
+    private int[] comboPointSequence = { 200, 400, 800, 1000, 2000, 4000, 8000 };
 
     void Awake()
     {
@@ -63,6 +68,51 @@ public class GameController : MonoBehaviour
     {
         if (livesText != null)
             livesText.text = totalLives.ToString();
+    }
+
+    public void AddLife()
+    {
+        totalLives++;
+        UpdateLivesText();
+    }
+
+    public void AddScore(int points)
+    {
+        totalScore += points;
+        UpdateScoreText();
+    }
+
+    public void IncrementStompCombo()
+    {
+        if (stompComboIndex < comboPointSequence.Length)
+        {
+            AddScore(comboPointSequence[stompComboIndex]);
+        }
+        else
+        {
+            AddLife();
+        }
+        stompComboIndex++;
+    }
+
+    public void ResetStompCombo()
+    {
+        stompComboIndex = 0;
+    }
+
+    /// Retorna o índice atual do combo de pulos (Stomp Combo).
+    /// </summary>
+    public int GetStompComboIndex()
+    {
+        return stompComboIndex;
+    }
+
+    /// <summary>
+    /// Define manualmente o índice do combo de pulos.
+    /// </summary>
+    public void SetStompComboIndex(int newIndex)
+    {
+        stompComboIndex = newIndex;
     }
 
     public void PlayerDied()
