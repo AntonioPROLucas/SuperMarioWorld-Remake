@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      redKoopaTroopa_walking1_0: -8195980745437862831
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

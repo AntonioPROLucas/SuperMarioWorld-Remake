@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7079953430536950429}
   - component: {fileID: 2377269258320412613}
   - component: {fileID: 7489154467493664341}
+  - component: {fileID: 3490464584813720840}
   m_Layer: 0
   m_Name: HitEffect_Prefab
   m_TagString: Untagged
@@ -4877,15 +4878,28 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: -9037724387597929990, guid: a5e640e7e0f8b7a42b86b5f98a06f54b, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: -59066101396820148, guid: d6de334e3f643c44a905c3180c0e703a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.2, y: 2.08}
+  m_Size: {x: 3.69, y: 1.58}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3490464584813720840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854630603887159925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf9c251f9e148c44af6e797c8035efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.8

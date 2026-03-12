@@ -8,11 +8,19 @@ TagManager:
   - ScoreText
   - LivesText
   - Enemy
+  - Shell
+  - Block
+  - Coin
+  - Fruit
+  - Ground
+  - Wall
+  - StarText
+  - CenterStarText
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Mount
   - Water
   - UI
   - Ground
@@ -22,13 +30,13 @@ TagManager:
   - Shell
   - Wall
   - Enemy
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Block
+  - Fruit
+  - Barrier
+  - LayerGhost
+  - PSwitch
+  - PowerUp
+  - Checkpoint
   - 
   - 
   - 

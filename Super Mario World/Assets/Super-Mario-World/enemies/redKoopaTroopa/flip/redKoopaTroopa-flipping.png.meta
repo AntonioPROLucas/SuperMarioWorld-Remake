@@ -184,10 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      redKoopaTroopa-flipping_0: 5383711651251395060
-      redKoopaTroopa-flipping_1: 8867699335492620877
-      redKoopaTroopa-flipping_2: -6338827622509641396
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

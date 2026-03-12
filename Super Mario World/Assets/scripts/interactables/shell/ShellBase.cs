@@ -1,323 +1,280 @@
 using UnityEngine;
+using System.Collections;
 
-[RequireComponent(typeof(Animator))] 
-public class ShellBase : MonoBehaviour
+[RequireComponent(typeof(Animator))]
+public class ShellBase : HoldableObject
 {
+    [Header("Configurações do Casco")]
     public ShellType shellType;
+    private Coroutine destroyOffScreenRoutine;
     public float moveSpeed = 8f;
-    public float throwUpForce = 10f;
+    public float throwUpForce = 12f;
     public float stompBounceForce = 10f;
-    public LayerMask groundLayer; 
-    public LayerMask wallLayer; 
 
-    [Header("Efeitos")]
+    [Header("Efeitos e Combos")]
     public GameObject hitEffectPrefab;
-    public float hitEffectDuration = 1f;
+    public GameObject smokeEffectPrefab;
 
-    private Rigidbody2D rb;
-    private Collider2D col;
-    private Animator anim; 
-    private int isMovingAnimHash;
+    [Header("Camadas")]
+    public LayerMask wallLayer;
+    public LayerMask groundLayer;
 
+    // Estados
     private enum ShellState { Idle, Moving, VerticallyBouncing, Held }
     private ShellState state = ShellState.Idle;
-    private int direction = 1;
 
-    // Variável de Combo
-    private int shellComboIndex = 0; 
-    private int[] comboPointSequence = { 200, 400, 800, 1000, 2000, 4000, 8000 };
-    
-    private bool isBroken = false; 
+    private Animator anim;
+    private int isMovingAnimHash;
+    private int direction = 1;
+    private bool isBroken = false;
+
+    protected override void Awake()
+    {
+        base.Awake(); // Chama o Awake do pai para pegar RB e Collider
+        anim = GetComponent<Animator>();
+        isMovingAnimHash = Animator.StringToHash("isMoving");
+    }
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        col = GetComponent<Collider2D>();
-        anim = GetComponent<Animator>(); 
-        isMovingAnimHash = Animator.StringToHash("isMoving");
-        EnterIdle();
+        if (state == ShellState.Idle) EnterIdle();
     }
-    
+
     void FixedUpdate()
     {
-        if (isBroken) return; 
+        if (isBroken || state == ShellState.Held) return;
 
-        if (state == ShellState.Moving) 
+        if (state == ShellState.Moving)
         {
             rb.linearVelocity = new Vector2(direction * moveSpeed, rb.linearVelocity.y);
         }
     }
-    
-    void OnCollisionEnter2D(Collision2D collision)
+
+    // --- IMPLEMENTAÇÃO DO PAI ---
+
+    public override bool CanBePickedUp()
     {
-        if (isBroken) return; 
+        // Só pega se estiver Parado
+        return state == ShellState.Idle;
+    }
 
-        // --- 1. LÓGICA DE ATERRAGEM (Prioridade #1) ---
-        // (Se bater no chão, para tudo e checa se deve ficar Idle)
-        if (((1 << collision.gameObject.layer) & groundLayer) != 0)
-        {
-            if (state == ShellState.Moving && Mathf.Abs(rb.linearVelocity.x) < 0.1f) { EnterIdle(); }
-            if (state == ShellState.VerticallyBouncing) { EnterIdle(); }
-            return; // Aterrou, não faz mais nada este frame.
-        }
-
-        // --- 2. LÓGICA DE QUANDO O CASCO ESTÁ A GIRAR (MOVING) ---
-        if (state == ShellState.Moving)
-        {
-            // Tenta pegar o script do outro casco (procurando no objeto-pai, por segurança)
-            ShellBase otherShell = collision.gameObject.GetComponentInParent<ShellBase>();
-
-            // 2a. Bater em OUTRO CASCO (Prioridade #2 - Mais Específico)
-            if (otherShell != null && otherShell != this)
-            {
-                // Se o outro casco também está se movendo, destrua os dois.
-                if (otherShell.IsMovingHorizontally()) 
-                {
-                    // Ambos se destroem
-                    this.BreakAndDie();
-                    otherShell.BreakAndDie();
-
-                    // (Opcional) Efeito de fumaça
-                    if (hitEffectPrefab != null)
-                    {
-                        Vector2 effectPosition = collision.contacts[0].point;
-                        GameObject effect = Instantiate(hitEffectPrefab, effectPosition, Quaternion.identity);
-                        Destroy(effect, hitEffectDuration);
-                    }
-                }
-                // (Se o outro casco não estava se movendo, a física normal (empurrar)
-                // será aplicada, o que está correto)
-            }
-            // 2b. Bater em Inimigos (Prioridade #3)
-            else if (collision.gameObject.GetComponentInParent<EnemyBase>() is EnemyBase enemy)
-            {
-                // Se entramos aqui, É UM INIMIGO (porque tem o script EnemyBase)
-                
-                enemy.HitByShell(); // 💥 MATA O INIMIGO
-                // (Lógica de combo...)
-                if (GameController.instance != null)
-                {
-                    // Verifica se ainda tem pontos no array de combo
-                    if (shellComboIndex < comboPointSequence.Length)
-                    {
-                        GameController.instance.AddScore(comboPointSequence[shellComboIndex]);
-                        // (Opcional) Instanciar texto flutuante com os pontos aqui
-                    }
-                    else
-                    {
-                        // Se estourou o combo (ex: 8 hits), ganha vida
-                        GameController.instance.AddLife();
-                        // (Opcional) Tocar som de 1-UP
-                    }
-                    
-                    shellComboIndex++; // Avança o combo
-                }
-
-                // (Efeito de Hit)
-                if (hitEffectPrefab != null)
-                {
-                    Vector2 effectPosition = collision.contacts[0].point;
-                    GameObject effect = Instantiate(hitEffectPrefab, effectPosition, Quaternion.identity);
-                    Destroy(effect, hitEffectDuration);
-                }
-            }
-            // 2c. Bater em Paredes (Prioridade #4 - Genérico)
-            else if (((1 << collision.gameObject.layer) & wallLayer) != 0)
-            {
-                direction *= -1; 
-            }
-        }
-        
-        // --- 3. LÓGICA: QUANDO O CASCO ESTÁ A QUICAR (BOUNCING) ---
-        if (state == ShellState.VerticallyBouncing)
-        {
-            if (collision.gameObject.CompareTag("Enemy"))
-            {
-                if (collision.gameObject.TryGetComponent<EnemyBase>(out EnemyBase enemy))
-                {
-                    enemy.HitByShell();
-                    rb.linearVelocity = new Vector2(0, throwUpForce * 0.5f); 
-                }
-
-                // (Efeito de Hit)
-                if (hitEffectPrefab != null)
-                {
-                    Vector2 effectPosition = collision.contacts[0].point;
-                    GameObject effect = Instantiate(hitEffectPrefab, effectPosition, Quaternion.identity);
-                    Destroy(effect, hitEffectDuration);
-                }
-            }
-        }
-}
-
-    void OnTriggerEnter2D(Collider2D other)
+    public override void GetPickedUp(Mario mario)
     {
-        if (isBroken) return;
+        if (state == ShellState.Held) return;
+        EnterHeld();
+        base.GetPickedUp(mario); // Chama a lógica física do pai
+    }
 
-        // Lógica: "EU sou um casco MOVENDO (sólido) e bati em um casco PARADO (trigger)?"
-        if (this.state == ShellState.Moving)
+    public override void Throw(Vector2 throwDirection, float force, Collider2D throwerCollider = null)
+    {
+        // Define o estado específico do Casco ANTES da física
+        if (throwDirection == Vector2.up)
         {
-            if (other.TryGetComponent<ShellBase>(out ShellBase otherShell))
-            {
-                if (otherShell.IsIdle())
-                {
-                    // 1. O casco parado (Idle) é destruído
-                    otherShell.BreakAndDie();
-                    
-                    // 2. Eu (o casco em movimento) NÃO FAÇO NADA.
-                    //    Eu não ricocheteio, apenas continuo reto.
-                }
-            }
+            EnterVerticalBounce();
+            // Chama o pai para lidar com a física, passando a força vertical específica
+            base.Throw(Vector2.up, throwUpForce, throwerCollider);
+        }
+        else
+        {
+            int dir = throwDirection.x > 0 ? 1 : -1;
+            EnterMoving(dir);
+            // Chama o pai para lidar com a física horizontal
+            base.Throw(new Vector2(dir, 0), force, throwerCollider);
         }
     }
-    
-    public void BreakAndDie()
+
+   public void Kick(int dir)
+    {
+        EnterMoving(dir);
+    }
+
+    public void StompedByPlayer(GameObject stomper)
+    {
+        if (isBroken) return;
+        SpawnEffect(hitEffectPrefab, transform.position);
+
+        if (state == ShellState.Moving || state == ShellState.VerticallyBouncing)
+        {
+            EnterIdle();
+            
+            // O Mario pisou em um casco perigoso, ganha pontos de combo!
+            if (GameController.instance) GameController.instance.RegisterComboHit(transform.position);
+        }
+        else if (state == ShellState.Idle)
+        {
+            int kickDir = (stomper.transform.position.x < transform.position.x) ? 1 : -1;
+            EnterMoving(kickDir);
+        }
+        
+        // Empurra o Mario pra cima
+        if (stomper != null && stomper.TryGetComponent<Rigidbody2D>(out Rigidbody2D pRb))
+        {
+            pRb.linearVelocity = new Vector2(pRb.linearVelocity.x, stompBounceForce);
+        }
+    }
+
+    public void DieByCrush() 
     {
         if (isBroken) return;
         isBroken = true;
-        state = ShellState.Idle; 
-        if(rb != null) rb.linearVelocity = Vector2.zero; 
+        
+        if(smokeEffectPrefab) 
+        {
+            GameObject smoke = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
+            Destroy(smoke, 1.0f);
+        }
+        Destroy(gameObject);
+    }
+    
+    public void DieByImpact(Vector2? position = null) 
+    {
+        if (isBroken) return;
+        isBroken = true;
+        
         transform.SetParent(null); 
-        if(col != null)
-        {
-            col.enabled = false;
-        }
-        if(rb != null)
-        {
-            rb.bodyType = RigidbodyType2D.Dynamic;
-            rb.gravityScale = 2f; 
-        }
-        transform.localScale = new Vector3(transform.localScale.x, -transform.localScale.y, transform.localScale.z);
         
-        // ⬇️⬇️⬇️ A CORREÇÃO ESTÁ AQUI ⬇️⬇️⬇️
-        // Vamos dar uma força X aleatória para ele voar para os lados
-        float randomXForce = Random.Range(-3f, 3f);
-        float randomYForce = Random.Range(8f, 12f); // Um pouco de variação no pulo
+        // Se 'position' for nulo, usa a própria posição do objeto
+        Vector2 posToSpawn = position ?? (Vector2)transform.position;
+        SpawnEffect(hitEffectPrefab, posToSpawn);
+
+        if (col) col.enabled = false;
         
-        rb.AddForce(new Vector2(randomXForce, randomYForce), ForceMode2D.Impulse);
-        // ⬆️⬆️⬆️ FIM DA CORREÇÃO ⬆️⬆️⬆️
+        // ... restante da sua lógica original de DieByImpact (rb setup, scale, destroy)
+        rb.simulated = true;
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.gravityScale = 2.5f;
+        rb.isKinematic = false;
+        rb.linearVelocity = Vector2.zero;
+        rb.AddForce(Vector2.up * 8f, ForceMode2D.Impulse);
+
+        Vector3 s = transform.localScale;
+        s.y = -Mathf.Abs(s.y);
+        transform.localScale = s;
 
         Destroy(gameObject, 3f);
     }
 
+    // --- ESTADOS ---
     public bool IsIdle() => state == ShellState.Idle;
     public bool IsMovingHorizontally() => state == ShellState.Moving;
+    public int GetDirection() => direction;
 
-    public void EnterIdle()
+    private void EnterMoving(int dir)
     {
-        if (isBroken) return; 
-        state = ShellState.Idle;
-        rb.linearVelocity = Vector2.zero;
-        rb.bodyType = RigidbodyType2D.Kinematic;
-        col.enabled = true;
-        col.isTrigger = true;
-        anim.SetBool(isMovingAnimHash, false); 
-        shellComboIndex = 0; 
-    }
-
-    public void EnterMoving(int dir)
-    {
-        if (isBroken) return; 
         state = ShellState.Moving;
         direction = dir;
-        rb.bodyType = RigidbodyType2D.Dynamic;
-        col.enabled = true;
         col.isTrigger = false;
-        anim.SetBool(isMovingAnimHash, true); 
+        anim.SetBool(isMovingAnimHash, true);
     }
 
-    public void EnterHeld()
+    private void EnterIdle()
     {
-        if (isBroken) return; 
-        state = ShellState.Held;
+        state = ShellState.Idle;
         rb.linearVelocity = Vector2.zero;
-        rb.angularVelocity = 0f;
-        rb.bodyType = RigidbodyType2D.Kinematic;
-        col.enabled = true;
-        col.isTrigger = true;
-        anim.SetBool(isMovingAnimHash, false); 
-        shellComboIndex = 0; 
+        col.isTrigger = false;
+        anim.SetBool(isMovingAnimHash, false);
     }
 
-    public void ExitHeld(Vector2 throwDirection)
+    private void EnterHeld()
     {
-        if (isBroken) return; 
-        transform.SetParent(null);
-        rb.bodyType = RigidbodyType2D.Dynamic;
-        col.enabled = true;
-        
-        if (throwDirection == Vector2.up)
-        {
-            state = ShellState.VerticallyBouncing;
-            col.isTrigger = false; 
-            anim.SetBool(isMovingAnimHash, false); 
-            direction = 0;
-            rb.linearVelocity = new Vector2(0, throwUpForce);
-            shellComboIndex = 0; 
-        }
-        else
-        {
-            direction = throwDirection.x > 0 ? 1 : -1;
-            EnterMoving(direction); 
-        }
+        state = ShellState.Held;
+        anim.SetBool(isMovingAnimHash, false);
     }
-    
-    public void StompedByPlayer(GameObject stomper)
-    {
-        if (isBroken) return;
 
-        // --- 1. Lógica de Combo ---
-        if (GameController.instance != null)
+    private void EnterVerticalBounce()
+    {
+        state = ShellState.VerticallyBouncing;
+        col.isTrigger = false;
+        anim.SetBool(isMovingAnimHash, false);
+    }
+
+    // --- COLISÕES ---
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (isBroken || state == ShellState.Held) return;
+
+        // Declaração ÚNICA do ponto de contato
+        Vector2 contactPoint = collision.GetContact(0).point;
+
+        // 1. CHÃO
+        if (((1 << collision.gameObject.layer) & groundLayer) != 0)
         {
-            // Sincroniza o combo do jogo com o do casco
-            int gameStompIndex = GameController.instance.GetStompComboIndex();
-            if (shellComboIndex > gameStompIndex)
+            if (state == ShellState.VerticallyBouncing) EnterIdle();
+        }
+        // 2. PAREDES
+        else if (((1 << collision.gameObject.layer) & wallLayer) != 0)
+        {
+            if (state == ShellState.Moving) direction *= -1;
+        }
+        // 3. INIMIGOS
+        else if (collision.gameObject.TryGetComponent<EnemyBase>(out EnemyBase enemy))
+        {
+            if (state == ShellState.Moving || state == ShellState.VerticallyBouncing)
             {
-                GameController.instance.SetStompComboIndex(shellComboIndex);
+                SpawnEffect(hitEffectPrefab, contactPoint); 
+                enemy.HitByShell();
+                
+                // ✨ A MÁGICA DA UNIFICAÇÃO: O casco alimenta o combo global do Mario!
+                if (GameController.instance) GameController.instance.RegisterComboHit(contactPoint);
             }
-            
-            GameController.instance.IncrementStompCombo();
         }
-
-        // --- 2. Efeito Visual ---
-        if (hitEffectPrefab != null)
+        // 4. OUTROS CASCOS
+        else if (collision.gameObject.TryGetComponent<ShellBase>(out ShellBase otherShell))
         {
-            // Cria o efeito no ponto de contato (ou na posição do casco)
-            Vector2 effectPos = stomper != null ? (Vector2)stomper.transform.position : (Vector2)transform.position;
-            // Tenta ajustar para ficar entre o Mario e o Casco
-            if(stomper != null) effectPos = (stomper.transform.position + transform.position) / 2f;
-
-            GameObject effect = Instantiate(hitEffectPrefab, effectPos, Quaternion.identity);
-            Destroy(effect, hitEffectDuration);
-        }
-
-        // --- 3. Lógica de Estado (Stop vs Kick) ---
-        if (state == ShellState.Moving)
-        {
-            // Se estava se movendo, PARA
-            EnterIdle();
-        }
-        else if (state == ShellState.Idle)
-        {
-            // Se estava parado, CHUTA
-            int kickDirection = (stomper.transform.position.x < transform.position.x) ? 1 : -1;
-            EnterMoving(kickDirection);
-        }
-
-        // --- 4. Aplica o Impulso no Mario ---
-        if (stomper != null && stomper.TryGetComponent<Rigidbody2D>(out Rigidbody2D stomperRb))
-        {
-            stomperRb.linearVelocity = new Vector2(stomperRb.linearVelocity.x, stompBounceForce);
+            if (this.IsMovingHorizontally() && otherShell.IsMovingHorizontally())
+            {
+                // Dois cascos correndo batem de frente. Ambos dão pontos na mesma cadeia de combo!
+                if (GameController.instance) 
+                {
+                    GameController.instance.RegisterComboHit(contactPoint);
+                    GameController.instance.RegisterComboHit(contactPoint); 
+                }
+                
+                this.DieByImpact(contactPoint);
+                otherShell.DieByImpact(contactPoint);
+            }
+            else if (this.IsMovingHorizontally() && otherShell.IsIdle())
+            {
+                // Este casco destruiu um casco parado
+                if (GameController.instance) GameController.instance.RegisterComboHit(contactPoint);
+                otherShell.DieByImpact(contactPoint);
+            }
         }
     }
 
-    public int GetShellComboIndex()
+    private void SpawnEffect(GameObject prefab, Vector2 pos)
     {
-        return shellComboIndex;
+        if (prefab) Destroy(Instantiate(prefab, pos, Quaternion.identity), 1.0f);
     }
     
-    public int GetDirection()
+    void OnBecameInvisible()
     {
-        return direction;
+        if (isBroken) return; // Se já quebrou, ignora (DieByImpact cuida dele)
+
+        // Inicia a contagem de 3 segundos antes de destruir
+        if (gameObject.activeInHierarchy) // Segurança extra
+        {
+            destroyOffScreenRoutine = StartCoroutine(DestroyOffScreenDelay(3f));
+        }
     }
+
+    // 2. Voltou para a Tela: Cancela a destruição!
+    void OnBecameVisible()
+    {
+        if (destroyOffScreenRoutine != null)
+        {
+            StopCoroutine(destroyOffScreenRoutine);
+            destroyOffScreenRoutine = null;
+        }
+    }
+
+    // A Corrotina de espera
+    private IEnumerator DestroyOffScreenDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        
+        // Se ainda não voltou pra tela após o tempo, tchau!
+        Destroy(gameObject);
+    }
+
 }

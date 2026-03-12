@@ -12,10 +12,12 @@ GameObject:
   - component: {fileID: 4243976382726388666}
   - component: {fileID: 1155810961698602472}
   - component: {fileID: 3489778384794555183}
-  - component: {fileID: 4402037720450264110}
+  - component: {fileID: 946504461879548553}
+  - component: {fileID: 2777558326356182246}
+  - component: {fileID: 2900827769168050201}
   m_Layer: 0
   m_Name: coin
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,7 +150,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.0000001363457, y: 0}
   m_Radius: 1.18
---- !u!114 &4402037720450264110
+--- !u!114 &946504461879548553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,4 +162,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad1e895ca8221694ba13a41f3a22ecca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Coins: 1
+  scoreValue: 0
+  popForce: 10
+  isSolidBlock: 0
+  collectEffectPrefab: {fileID: 1634957229452855342, guid: cd807bcc6cf7a3445aeb851008a495e3, type: 3}
+  effectDuration: 0.4
+--- !u!114 &2777558326356182246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3206372646633485173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb75953a4224a664b855d0a870b5dc9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &2900827769168050201
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3206372646633485173}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0477041, y: 0.02576971}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.34, y: 2.36}
+    newSize: {x: 2.34, y: 2.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.5166898, y: 1.4494784}
+  m_EdgeRadius: 0

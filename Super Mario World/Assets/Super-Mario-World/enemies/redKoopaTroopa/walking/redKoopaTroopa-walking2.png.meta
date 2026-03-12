@@ -114,7 +114,7 @@ TextureImporter:
         width: 236
         height: 355
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -127,55 +127,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: redKoopaTroopa-walking2_1
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 381
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11f43d6a6ab4484d0800000000000000
-      internalID: -3133296261607502063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: redKoopaTroopa-walking2_2
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 141
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1808edc0c42bfd370800000000000000
-      internalID: 8349588273871356033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 838ac0f701532074c9ebed0eda5f8e28
     internalID: 0
     vertices: []
     indices: 

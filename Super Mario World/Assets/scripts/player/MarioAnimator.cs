@@ -4,52 +4,69 @@ public class MarioAnimator : MonoBehaviour
 {
     private Animator anim;
 
-    // Hashes dos parâmetros (forma otimizada)
+    // Hashes dos parâmetros
     private int walkHash;
     private int runHash;
     private int jumpHash;
     private int fallHash;
     private int lowHash;
     private int skidHash;
-    private int powerUpStateHash; // 🔹 NOVO
-    private int isHoldingHash;    // 🔹 NOVO
+    private int powerUpStateHash;
+    private int isHoldingHash;    
+    private int lookUpHash;
+    private int throwUpHash;
+    private int isRidingHash;
+    private int isTurningHash; 
     
-    // Variáveis de cache para otimização
+    // Yoshi
+    private int startRidingHash; 
+    private int ridePointHash;
+
+    // ⬇️ 1. NOVO HASH PARA VITÓRIA
+    private int victoryHash; 
+
+    // Variáveis de cache
     private bool currentWalk;
     private bool currentRun;
     private bool currentJump;
     private bool currentFall;
     private bool currentLow;
     private bool currentSkid;
-    private int currentPowerUpState; // 🔹 NOVO
-    private float currentHolding;    // 🔹 NOVO
+    private int currentPowerUpState; 
+    private float currentHolding;    
+    private bool currentLookUp;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
 
-        // Converte os nomes dos parâmetros em Hashes no início
         walkHash = Animator.StringToHash("walk");
         runHash = Animator.StringToHash("run");
         jumpHash = Animator.StringToHash("jump");
         fallHash = Animator.StringToHash("fall");
         lowHash = Animator.StringToHash("low");
         skidHash = Animator.StringToHash("skid");
-        powerUpStateHash = Animator.StringToHash("powerUpState"); // 🔹 NOVO
-        isHoldingHash = Animator.StringToHash("isHolding");       // 🔹 NOVO
+        powerUpStateHash = Animator.StringToHash("powerUpState");
+        isHoldingHash = Animator.StringToHash("isHolding");      
+        lookUpHash = Animator.StringToHash("lookUp");
+        throwUpHash = Animator.StringToHash("throwUp");
+        isRidingHash = Animator.StringToHash("isRiding");
+        isTurningHash = Animator.StringToHash("isTurning"); 
 
-        // Inicializa com valores impossíveis para forçar a primeira atualização
+        startRidingHash = Animator.StringToHash("startRiding");
+        ridePointHash = Animator.StringToHash("ridePoint");
+
+        // ⬇️ 2. INICIALIZAÇÃO
+        victoryHash = Animator.StringToHash("victory");
+
         currentPowerUpState = -1;
         currentHolding = -1f;
     }
 
     // 🔹 ======================================================= 🔹
-    // 🔹 NOVOS MÉTODOS PARA OS PARÂMETROS GLOBAIS
+    // 🔹 MÉTODOS DE CONTROLE
     // 🔹 ======================================================= 🔹
 
-    /// <summary>
-    /// Define o estado de power-up (0=Pequeno, 1=Grande, 2=Capa, etc.)
-    /// </summary>
     public void SetPowerUpState(int state)
     {
         if (currentPowerUpState != state)
@@ -101,7 +118,6 @@ public class MarioAnimator : MonoBehaviour
         {
             anim.SetBool(jumpHash, jumping);
             currentJump = jumping;
-            // Debug.Log("Animator: SetJump(" + jumping + ")"); // Podes manter se quiseres
         }
     }
 
@@ -111,7 +127,6 @@ public class MarioAnimator : MonoBehaviour
         {
             anim.SetBool(fallHash, falling);
             currentFall = falling;
-            // Debug.Log("Animator: SetFall(" + falling + ")"); // Podes manter se quiseres
         }
     }
 
@@ -124,19 +139,76 @@ public class MarioAnimator : MonoBehaviour
         }
     }
 
-    // Nota: O teu método SetIdle() não parece ser chamado em Mario.cs.
-    // O estado 'idle' é geralmente o estado padrão para onde o Animator vai
-    // quando 'walk', 'jump', 'fall', etc., são falsos.
-
-   public void SetTrigger(string triggerName)
+    public void SetLookUp(bool lookingUp)
     {
-        // Esta linha chama o "SetTrigger" real no componente Animator
+        if (currentLookUp != lookingUp)
+        {
+            anim.SetBool(lookUpHash, lookingUp);
+            currentLookUp = lookingUp;
+        }
+    }
+
+    public void SetTrigger(string triggerName)
+    {
         anim.SetTrigger(triggerName);
     }
 
-
+    public void SetThrowUpTrigger()
+    {
+        anim.SetTrigger(throwUpHash);
+    }
+    
+    // ⬇️ 3. NOVO MÉTODO PARA VITÓRIA
+    public void SetVictory()
+    {
+        anim.SetTrigger(victoryHash);
+    }
+    
     public AnimatorStateInfo GetCurrentState()
     {
         return anim.GetCurrentAnimatorStateInfo(0);
+    }
+
+    // 🔹 ======================================================= 🔹
+    // 🔹 MÉTODOS DO YOSHI
+    // 🔹 ======================================================= 🔹
+
+    public void SetRiding(bool isRiding)
+    {
+        anim.SetBool(isRidingHash, isRiding);
+        if (isRiding)
+        {
+            anim.SetTrigger(startRidingHash);
+        }
+    }
+
+    public void SetRideTurning(bool isTurning)
+    {
+        anim.SetBool(isTurningHash, isTurning);
+    }
+
+    public void SetRidePoint(bool isPointing)
+    {
+        anim.SetBool(ridePointHash, isPointing);
+    }
+
+    public void ResetAll()
+    {
+        anim.SetBool(walkHash, false);
+        anim.SetBool(runHash, false);
+        anim.SetBool(jumpHash, false);
+        anim.SetBool(fallHash, false);
+        anim.SetBool(skidHash, false);
+        anim.SetBool(lowHash, false);
+        anim.SetBool(lookUpHash, false);
+    }
+
+    public bool IsRiding()
+    {
+        if (anim != null)
+        {
+            return anim.GetBool(isRidingHash);
+        }
+        return false;
     }
 }

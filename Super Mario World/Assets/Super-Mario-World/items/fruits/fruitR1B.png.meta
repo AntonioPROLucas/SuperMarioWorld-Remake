@@ -109,12 +109,12 @@ TextureImporter:
       name: fruitR1B_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 79
-        width: 465
-        height: 232
+        x: 369
+        y: 78
+        width: 212
+        height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -127,55 +127,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: fruitR1B_1
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 85
-        width: 18
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43205284cc7efa790800000000000000
-      internalID: -7516534388488338892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fruitR1B_2
-      rect:
-        serializedVersion: 2
-        x: 521
-        y: 69
-        width: 20
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9085a885decb79300800000000000000
-      internalID: 258883231175825417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a8cdf0d21788ef547b40b87df94b9cac
     internalID: 0
     vertices: []
     indices: 
@@ -184,7 +140,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fruitR1B_0: 1340132606595868015
+      fruitR1B_1: -7516534388488338892
+      fruitR1B_2: 258883231175825417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
