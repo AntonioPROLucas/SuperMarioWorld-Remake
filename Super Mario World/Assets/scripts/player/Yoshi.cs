@@ -187,6 +187,8 @@ public class Yoshi : CharacterBase
             IsGrounded = true;
             anim.SetBool(animJump, false);
             anim.SetBool(animFall, false);
+
+            yoshiComboIndex = 0;
         }
 
         if (currentState != YoshiState.Ridden) return;
@@ -441,6 +443,8 @@ public class Yoshi : CharacterBase
             Vector3 compensatedScale = new Vector3(storedRiderScale.x / parentScaleX, storedRiderScale.y / parentScaleY, storedRiderScale.z);
             rider.transform.localScale = compensatedScale; 
             gameObject.layer = defaultLayer;
+
+            if (AudioManager.instance != null) AudioManager.instance.SetYoshiDrums(true);
         }
     }
 
@@ -449,6 +453,7 @@ public class Yoshi : CharacterBase
         if (rider == null) return;
         Collider2D marioCol = rider.GetComponent<Collider2D>();
         Collider2D yoshiCol = GetComponent<Collider2D>();
+        if (AudioManager.instance != null) AudioManager.instance.SetYoshiDrums(false);
         if (rider.TryGetComponent<Mario>(out Mario marioScript)) {
             rider.transform.SetParent(null);
             rider.transform.rotation = Quaternion.identity;

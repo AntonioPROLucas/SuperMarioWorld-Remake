@@ -44,8 +44,6 @@ public abstract class BlockBase : MonoBehaviour
         }
 
         transform.position = initialPosition; // Garante que volte exatamente ao ponto inicial
-        
-        // ⬅️ SOLUÇÃO: Indica que a Coroutine terminou e não há mais valores para retornar.
         yield break; 
     }
 
@@ -61,6 +59,7 @@ public abstract class BlockBase : MonoBehaviour
                 if (collision.gameObject.TryGetComponent<CharacterBase>(out CharacterBase player))
                 {
                     OnHitFromBelow(player);
+                    AudioManager.instance.PlaySFX("Block");
                 }
             }
         }

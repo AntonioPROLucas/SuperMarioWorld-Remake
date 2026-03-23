@@ -8,7 +8,7 @@ public class LevelTransition : MonoBehaviour
     public static LevelTransition instance;
 
     [Header("UI Referências")]
-    public Image blackScreenImage; // Arraste a IMAGEM PRETA aqui
+    public Image blackScreenImage;
     
     [Header("Configurações")]
     public float transitionDuration = 2.0f;

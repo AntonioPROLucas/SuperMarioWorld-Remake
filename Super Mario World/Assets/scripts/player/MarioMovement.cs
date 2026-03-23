@@ -71,7 +71,7 @@ public class MarioMovement : MonoBehaviour
         bool currentlyRiding = anim.IsRiding();
         if (wasRiding && !currentlyRiding) 
         {
-            mountCooldown = 0.5f; // Aplica meio segundo de trava ao sair do Yoshi
+            mountCooldown = 0.5f; 
         }
         wasRiding = currentlyRiding;
 
@@ -270,6 +270,7 @@ public class MarioMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0); 
             rb.AddForce(Vector2.up * currentJumpForce, ForceMode2D.Impulse);
             anim.SetJump(true);
+            //AudioManager.instance.PlaySFX("Jump");
         }
     }
 
@@ -278,7 +279,9 @@ public class MarioMovement : MonoBehaviour
     // ==========================================
     void HandleLow()
     {
-        if (!mario.IsGrounded)
+        // 🔥 A TRAVA: Se não estiver no chão OU estiver segurando um objeto, 
+        // ele ignora o botão e força o Mario a ficar em pé!
+        if (!mario.IsGrounded || mario.isHoldingObject)
         {
             if (isLowered) ExitLow();
             return;

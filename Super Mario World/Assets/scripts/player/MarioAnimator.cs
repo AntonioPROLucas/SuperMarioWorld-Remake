@@ -211,4 +211,8 @@ public class MarioAnimator : MonoBehaviour
         }
         return false;
     }
+
+    // 🔹 ======================================================= 🔹
+    // 🔹 EVENTOS DE ANIMAÇÃO (CHAMADOS PELO ANIMATOR WINDOW)
+    // 🔹 ======================================================= 🔹
 }

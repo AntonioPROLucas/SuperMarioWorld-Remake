@@ -11,7 +11,6 @@ public class EffectAutoDestroy : MonoBehaviour
         
         if (anim != null)
         {
-            // 🛑 A MÁGICA: Espera 1 frame para o Animator da Unity "acordar" e carregar a animação!
             yield return null; 
 
             float animTime = anim.GetCurrentAnimatorStateInfo(0).length;

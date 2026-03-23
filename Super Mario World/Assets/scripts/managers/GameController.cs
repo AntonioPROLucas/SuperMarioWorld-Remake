@@ -22,12 +22,13 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI starText; 
     
     [Header("Efeitos Visuais e Fim de Fase")]
-    public GameObject floatingTextPrefab; // ✨ O Prefab do texto flutuante
-    public TextMeshProUGUI centerStarText; // ✨ O Texto gigante no meio da tela
+    public GameObject floatingTextPrefab; // O Prefab do texto flutuante
+    public TextMeshProUGUI centerStarText; // O Texto gigante no meio da tela
 
     // --- CONFIGURAÇÃO DE COMBO ---
     private int[] comboPoints = { 200, 400, 800, 1000, 2000, 4000, 8000 };
     private int currentComboIndex = 0;
+    private float lastTimeCombo = 0f;
 
     // ==========================================
     // 🚩 SISTEMA DE CHECKPOINT
@@ -40,6 +41,7 @@ public class GameController : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            transform.SetParent(null);
             DontDestroyOnLoad(gameObject);
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
@@ -61,6 +63,12 @@ public class GameController : MonoBehaviour
         if (centerStarText != null) centerStarText.gameObject.SetActive(false); // Esconde no início da fase
 
         UpdateAllUI();
+
+        if (AudioManager.instance != null) 
+        {
+            AudioManager.instance.RestartBGM();
+            AudioManager.instance.SetYoshiDrums(false); // Trava de segurança ativada!
+        }
     }
 
     void UpdateAllUI()
@@ -78,6 +86,9 @@ public class GameController : MonoBehaviour
     // Agora aceita a posição do inimigo!
     public void RegisterComboHit(Vector3? spawnPosition = null)
     {
+        if (Time.time < lastTimeCombo + 0.1f) return;
+        lastTimeCombo = Time.time;
+
         int scoreToAdd = 0;
 
         if (currentComboIndex < comboPoints.Length)
@@ -105,6 +116,8 @@ public class GameController : MonoBehaviour
     public void AddCoin(int amount = 1, Vector3? spawnPosition = null)
     {
         totalCoins += amount;
+        AudioManager.instance.PlaySFX("Coin");
+
         if (totalCoins >= 100)
         {
             totalCoins -= 100;
@@ -117,6 +130,7 @@ public class GameController : MonoBehaviour
     {
         totalLives++;
         UpdateLivesText();
+        AudioManager.instance.PlaySFX("oneUp");
         
         // ✨ Cria o texto vermelho "1-UP" no local
         if (spawnPosition.HasValue)
@@ -196,24 +210,46 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         if (centerStarText != null) centerStarText.gameObject.SetActive(false);
     }
-
-    // ... (Mantenha o resto dos seus métodos: PlayerDied, SetCheckpoint, etc. exatamente iguais)
     
-    public void PlayerDied()
+   public void PlayerDied()
     {
         totalLives--;
         ResetCombo();
         UpdateLivesText();
 
+        // 1. Para a música alegre imediatamente!
+        if (AudioManager.instance != null) AudioManager.instance.StopBGM();
+
         if (totalLives > 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            // 2. Toca o som de Morte
+            if (AudioManager.instance != null) AudioManager.instance.PlaySFX("Death");
+            
+            // 3. Inicia a contagem de tempo para o som tocar antes de recarregar a fase
+            StartCoroutine(DeathRoutine());
         }
         else
         {
-            Debug.Log("Game Over!");
+            // 4. Toca o som de Game Over
+            if (AudioManager.instance != null) AudioManager.instance.PlaySFX("GameOver");
+            
             ClearCheckpoint(); 
+            totalLives = 5; 
+            bonusStars = 0;
+            totalCoins = 0; 
+            totalScore = 0; 
+            
+            GameOverManager telaMorte = FindObjectOfType<GameOverManager>();
+            if (telaMorte != null) telaMorte.ActivateGameOver();
         }
+    }
+
+    // Espera o tempo do "jingle" de morte antes de reiniciar a tela
+    private IEnumerator DeathRoutine()
+    {
+        // Espera 3 segundos (Ajuste esse tempo de acordo com a duração do seu áudio de morte)
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void SetCheckpoint(Vector3 pos) { hasCheckpoint = true; checkpointPosition = pos; }

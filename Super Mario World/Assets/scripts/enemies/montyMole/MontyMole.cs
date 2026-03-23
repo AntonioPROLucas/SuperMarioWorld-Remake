@@ -13,7 +13,6 @@ public class MontyMole : EnemyBase
 
     [Header("Efeitos e Combos")]
     public GameObject hitEffectPrefab;
-    // 🛑 smokeEffectPrefab foi removido daqui porque a classe EnemyBase já possui ele!
 
     private enum State { Emerging, Patrol, Turning, Dead }
     private State currentState = State.Emerging;
@@ -133,11 +132,6 @@ public class MontyMole : EnemyBase
     public override void OnStomped(GameObject stomper)
     {
         if (currentState == State.Dead) return;
-
-        if (GameController.instance != null)
-        {
-            GameController.instance.RegisterComboHit(transform.position);
-        }
 
         if (stomper.GetComponent<Yoshi>() != null)
         {

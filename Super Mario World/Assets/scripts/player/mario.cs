@@ -39,6 +39,7 @@ public class Mario : CharacterBase
     // 🔨 VARIÁVEIS DA MARRETA DO PISCAR
     private bool isFlashing = false;
     private float currentFlashAlpha = 1f;
+    private float jumpCoolDown = 0f;
 
     // Componentes Internos
     private MarioAnimator marioAnim;
@@ -195,10 +196,7 @@ public class Mario : CharacterBase
     {
         int facingDir = GetFacingDirection();
         
-        // 1. Abaixamos o radar no eixo Y (-0.8f) para garantir que ele varra o chão!
         Vector2 checkPos = (Vector2)transform.position + new Vector2(facingDir * 0.6f, -0.8f);
-        
-        // 2. Trocamos para OverlapCircleAll! Ele agora pega TODOS os itens na área e filtra o correto.
         Collider2D[] hits = Physics2D.OverlapCircleAll(checkPos, grabRange, grabLayer);
         
         foreach (Collider2D hit in hits)
@@ -264,19 +262,27 @@ public class Mario : CharacterBase
             {
                 hitEnemy.OnStomped(this.gameObject); 
                 PerformStompJump(); 
-                if (GameController.instance) GameController.instance.RegisterComboHit(); 
+                if (GameController.instance) GameController.instance.RegisterComboHit(hitEnemy.transform.position);
+                return;
+            }
+            
+            if (isHoldingObject && heldObject != null)
+            {
+                BreakShield(hitEnemy);
                 return;
             }
 
+            // Se não pisou e não tem escudo... aí sim toma dano!
             if (!IsInvincible) TakeDamage();
-        } 
+        }
+
         else if (collision.gameObject.TryGetComponent<ShellBase>(out ShellBase shell)) 
         {
             if (!IsGrounded && transform.position.y > shell.transform.position.y + 0.15f)
             {
                 shell.StompedByPlayer(this.gameObject); 
                 PerformStompJump(); 
-                if (GameController.instance) GameController.instance.RegisterComboHit();
+                if (GameController.instance) GameController.instance.RegisterComboHit(hitEnemy.transform.position);
                 return; 
             }
 
@@ -327,27 +333,74 @@ public class Mario : CharacterBase
         {
             if (transform.position.y > other.transform.position.y)
             {
+                // O SEGURANÇA DA BOTA
+                if (Time.time < jumpCoolDown + 0.1f) return;
+
                 if (other.TryGetComponent<EnemyBase>(out EnemyBase hitEnemy))
                 {
+                    jumpCoolDown = Time.time; 
                     hitEnemy.OnStomped(this.gameObject); 
                     PerformStompJump(); 
-                    if (GameController.instance) GameController.instance.RegisterComboHit(); 
+                    // 🔥 CHAMADA DIRETA PARA O GAME CONTROLLER:
+                    if (GameController.instance) GameController.instance.RegisterComboHit(hitEnemy.transform.position); 
                 }
                 else if (other.TryGetComponent<ShellBase>(out ShellBase shell))
                 {
+                    jumpCoolDown = Time.time; 
                     shell.StompedByPlayer(this.gameObject); 
                     PerformStompJump(); 
-                    if (GameController.instance) GameController.instance.RegisterComboHit();
+                    // 🔥 CHAMADA DIRETA PARA O GAME CONTROLLER:
+                    if (GameController.instance) GameController.instance.RegisterComboHit(shell.transform.position);
                 }
             }
         }
     }
 
-    void OnCollisionExit2D(Collision2D collision) { if (((1 << collision.gameObject.layer) & groundLayer) != 0) IsGrounded = false; }
+    void OnCollisionExit2D(Collision2D collision) 
+    { 
+        if (((1 << collision.gameObject.layer) & groundLayer) != 0) IsGrounded = false; 
+    }
     
-    private void PerformStompJump() { rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0); BounceUp(1f); if (marioAnim != null) { marioAnim.SetTrigger("stomping"); marioAnim.SetJump(true); } }
+    private void PerformStompJump() { 
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0); 
+        BounceUp(1f); if (marioAnim != null) 
+        { 
+            marioAnim.SetTrigger("stomping"); 
+            marioAnim.SetJump(true); 
+        } 
+    }
     
     public void ChangePowerUpState(int s) { powerUpState = s; }
+
+    private void BreakShield(EnemyBase enemy)
+    {
+        // 1. NATURAL ENEMY DEATH (IMPACT)
+        if (enemy != null)
+        {
+            // Agora o inimigo sofre o impacto exato de um casco arremessado!
+            enemy.HitByShell(); 
+        }
+
+        if (heldObject != null)
+        {
+            GameObject shield = heldObject;
+            isHoldingObject = false;
+            heldObject = null;
+            if (marioAnim != null) marioAnim.SetHolding(0f); 
+            shield.transform.SetParent(null);
+
+            Collider2D[] cols = shield.GetComponents<Collider2D>();
+            foreach (Collider2D col in cols) col.enabled = false;
+
+            if (shield.TryGetComponent<Rigidbody2D>(out Rigidbody2D shieldRb))
+            {
+                shieldRb.simulated = true;
+                shieldRb.linearVelocity = new Vector2(0, -8f); 
+            }
+            
+            Destroy(shield, 2f);
+        }
+    }
     
     public override void TakeDamage() 
     { 
@@ -441,6 +494,7 @@ public class Mario : CharacterBase
         if (bodyCollider != null) bodyCollider.enabled = true; 
         if (feetCollider != null) feetCollider.enabled = true; 
         
+        marioAnim.SetRidePoint(false);
         marioAnim.SetRiding(false); 
         marioAnim.SetJump(true); 
         IsGrounded = false; 

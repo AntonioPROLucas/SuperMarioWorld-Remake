@@ -3,8 +3,8 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
     [Header("Configurações")]
-    public GameObject tapeObject; // Arraste o objeto da fita (filho) para aqui no Inspector
-    public GameObject sparkEffectPrefab; // Arraste o prefab da faísca para aqui
+    public GameObject tapeObject;
+    public GameObject sparkEffectPrefab;
     
     private bool isActivated = false;
 
@@ -22,6 +22,7 @@ public class Checkpoint : MonoBehaviour
     private void ActivateCheckpoint()
     {
         isActivated = true;
+        if (AudioManager.instance != null) AudioManager.instance.PlaySFX("Checkpoint");
 
         // Toca o efeito de faísca e destrói a fita
         if (tapeObject != null)

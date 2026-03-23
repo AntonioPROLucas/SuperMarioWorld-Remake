@@ -82,7 +82,6 @@ public abstract class CharacterBase : MonoBehaviour
     public virtual void OnLevelComplete()
     {
         isInputDisabled = true; // Trava controles do jogador
-        // NÃO ativamos isKinematic aqui! Deixamos a gravidade agir.
         rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); // Zera velocidade horizontal, mantém vertical
     }
 }

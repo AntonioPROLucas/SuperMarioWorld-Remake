@@ -96,9 +96,6 @@ public class ShellBase : HoldableObject
         if (state == ShellState.Moving || state == ShellState.VerticallyBouncing)
         {
             EnterIdle();
-            
-            // O Mario pisou em um casco perigoso, ganha pontos de combo!
-            if (GameController.instance) GameController.instance.RegisterComboHit(transform.position);
         }
         else if (state == ShellState.Idle)
         {

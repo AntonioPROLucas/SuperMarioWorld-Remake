@@ -1,0 +1,6240 @@
+fileFormatVersion: 2
+guid: 85558d9480e98c44f93703ae9f0fd270
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4752509365621059169
+    second: lens3_0
+  - first:
+      213: 1986313641469230229
+    second: lens3_1
+  - first:
+      213: -6678532866982848838
+    second: lens3_2
+  - first:
+      213: -5656354217382717316
+    second: lens3_3
+  - first:
+      213: 2789107828905446700
+    second: lens3_4
+  - first:
+      213: -6966113754116475779
+    second: lens3_5
+  - first:
+      213: -1855053609054256405
+    second: lens3_6
+  - first:
+      213: 5605680888861502612
+    second: lens3_7
+  - first:
+      213: -4143311681449073930
+    second: lens3_8
+  - first:
+      213: -8137703360904850516
+    second: lens3_9
+  - first:
+      213: 3413108021995304502
+    second: lens3_10
+  - first:
+      213: -7251666520744161604
+    second: lens3_11
+  - first:
+      213: -7196812202922921275
+    second: lens3_12
+  - first:
+      213: -953062381578077692
+    second: lens3_13
+  - first:
+      213: 7167282058144695105
+    second: lens3_14
+  - first:
+      213: -4524460011926460755
+    second: lens3_15
+  - first:
+      213: 1510790287126535319
+    second: lens3_16
+  - first:
+      213: 2109681440656449149
+    second: lens3_17
+  - first:
+      213: -5165440282010249175
+    second: lens3_18
+  - first:
+      213: -4161673610123034561
+    second: lens3_19
+  - first:
+      213: -1660034749243329217
+    second: lens3_20
+  - first:
+      213: -4047977355932330400
+    second: lens3_21
+  - first:
+      213: -7671437257419571437
+    second: lens3_22
+  - first:
+      213: 1574933935755929070
+    second: lens3_23
+  - first:
+      213: 2292048103977654328
+    second: lens3_24
+  - first:
+      213: -7845902640924857414
+    second: lens3_25
+  - first:
+      213: -1669400990187182588
+    second: lens3_26
+  - first:
+      213: 1554250979935610568
+    second: lens3_27
+  - first:
+      213: -2688364590776336827
+    second: lens3_28
+  - first:
+      213: 3759627126350918144
+    second: lens3_29
+  - first:
+      213: 6400289028451175438
+    second: lens3_30
+  - first:
+      213: 5207122042566882943
+    second: lens3_31
+  - first:
+      213: 6710278739877462493
+    second: lens3_32
+  - first:
+      213: -1516813727104273400
+    second: lens3_33
+  - first:
+      213: -8106475599142336741
+    second: lens3_34
+  - first:
+      213: 5444075752659246607
+    second: lens3_35
+  - first:
+      213: 9074459442087385600
+    second: lens3_36
+  - first:
+      213: -1098762754225538117
+    second: lens3_37
+  - first:
+      213: 8862860978614891821
+    second: lens3_38
+  - first:
+      213: -9142128300740592274
+    second: lens3_39
+  - first:
+      213: 727871413328295713
+    second: lens3_40
+  - first:
+      213: -8094686156066267720
+    second: lens3_41
+  - first:
+      213: 6048737815212145227
+    second: lens3_42
+  - first:
+      213: -1589713527431117836
+    second: lens3_43
+  - first:
+      213: -6864123123748977148
+    second: lens3_44
+  - first:
+      213: 8542439591217541262
+    second: lens3_45
+  - first:
+      213: -3675853364102137078
+    second: lens3_46
+  - first:
+      213: 4160345162814019246
+    second: lens3_47
+  - first:
+      213: 4563178365019202809
+    second: lens3_48
+  - first:
+      213: 2854699911193239981
+    second: lens3_49
+  - first:
+      213: 2591930209465870606
+    second: lens3_50
+  - first:
+      213: -4568165674899308598
+    second: lens3_51
+  - first:
+      213: 2565882131776788971
+    second: lens3_52
+  - first:
+      213: -3253582205026614678
+    second: lens3_53
+  - first:
+      213: -3201325793228944801
+    second: lens3_54
+  - first:
+      213: -244025431777889434
+    second: lens3_55
+  - first:
+      213: 151296042772323228
+    second: lens3_56
+  - first:
+      213: 6029274760630685097
+    second: lens3_57
+  - first:
+      213: -1167879014940124968
+    second: lens3_58
+  - first:
+      213: 2472767442688930468
+    second: lens3_59
+  - first:
+      213: -2403835691301469484
+    second: lens3_60
+  - first:
+      213: -2423349573153256497
+    second: lens3_61
+  - first:
+      213: -1279765681257737864
+    second: lens3_62
+  - first:
+      213: -3834380285603753208
+    second: lens3_63
+  - first:
+      213: 3769467763076997886
+    second: lens3_64
+  - first:
+      213: 798088747164000474
+    second: lens3_65
+  - first:
+      213: 3692193698032075576
+    second: lens3_66
+  - first:
+      213: -7989907481479976788
+    second: lens3_67
+  - first:
+      213: 7746412090527141768
+    second: lens3_68
+  - first:
+      213: -5081090561517110306
+    second: lens3_69
+  - first:
+      213: -77186294475471316
+    second: lens3_70
+  - first:
+      213: 3484303478990961076
+    second: lens3_71
+  - first:
+      213: -8772322665399303669
+    second: lens3_72
+  - first:
+      213: -6509492226792839653
+    second: lens3_73
+  - first:
+      213: -6070881679551396321
+    second: lens3_74
+  - first:
+      213: 4242276587125273045
+    second: lens3_75
+  - first:
+      213: 4085135882165456972
+    second: lens3_76
+  - first:
+      213: 9061513141375093581
+    second: lens3_77
+  - first:
+      213: -4043562928703094594
+    second: lens3_78
+  - first:
+      213: 5531005974369340758
+    second: lens3_79
+  - first:
+      213: -7231215842287206357
+    second: lens3_80
+  - first:
+      213: -1009586355247139761
+    second: lens3_81
+  - first:
+      213: -7857638509274319526
+    second: lens3_82
+  - first:
+      213: 3137447748569536208
+    second: lens3_83
+  - first:
+      213: -1828647278958674836
+    second: lens3_84
+  - first:
+      213: 31531652014425498
+    second: lens3_85
+  - first:
+      213: 1072087913512524157
+    second: lens3_86
+  - first:
+      213: -8469676726821040118
+    second: lens3_87
+  - first:
+      213: 8909765006399414537
+    second: lens3_88
+  - first:
+      213: -8936779907696905498
+    second: lens3_89
+  - first:
+      213: -22038942511170610
+    second: lens3_90
+  - first:
+      213: 1805052184252812619
+    second: lens3_91
+  - first:
+      213: -1743722686604522652
+    second: lens3_92
+  - first:
+      213: 6474801899612585010
+    second: lens3_93
+  - first:
+      213: -353821340996583255
+    second: lens3_94
+  - first:
+      213: 7256976613277788000
+    second: lens3_95
+  - first:
+      213: -6615931193549930809
+    second: lens3_96
+  - first:
+      213: 3644171249493247531
+    second: lens3_97
+  - first:
+      213: -9139368930547088414
+    second: lens3_98
+  - first:
+      213: -8916850817771872229
+    second: lens3_99
+  - first:
+      213: -3866112833179321239
+    second: lens3_100
+  - first:
+      213: 5223273425691162059
+    second: lens3_101
+  - first:
+      213: -439375442766009681
+    second: lens3_102
+  - first:
+      213: -1751876865671755683
+    second: lens3_103
+  - first:
+      213: -2534630450165637301
+    second: lens3_104
+  - first:
+      213: 6210715065318736980
+    second: lens3_105
+  - first:
+      213: -5118807677078582994
+    second: lens3_106
+  - first:
+      213: 3785308838716364172
+    second: lens3_107
+  - first:
+      213: -1899270705126634530
+    second: lens3_108
+  - first:
+      213: -2156135957766364512
+    second: lens3_109
+  - first:
+      213: -6111861682265722970
+    second: lens3_110
+  - first:
+      213: -4364939850428079484
+    second: lens3_111
+  - first:
+      213: -2481474121567018872
+    second: lens3_112
+  - first:
+      213: 3073234772211125616
+    second: lens3_113
+  - first:
+      213: 5150550114211537661
+    second: lens3_114
+  - first:
+      213: -6566820923806814656
+    second: lens3_115
+  - first:
+      213: -2746503198325483906
+    second: lens3_116
+  - first:
+      213: -732260692255837612
+    second: lens3_117
+  - first:
+      213: -2062283910665242624
+    second: lens3_118
+  - first:
+      213: -386542162199954058
+    second: lens3_119
+  - first:
+      213: -1952192257010832234
+    second: lens3_120
+  - first:
+      213: -4417411003397547059
+    second: lens3_121
+  - first:
+      213: -8484656964336932898
+    second: lens3_122
+  - first:
+      213: 4848526596746183060
+    second: lens3_123
+  - first:
+      213: 2225744340835615602
+    second: lens3_124
+  - first:
+      213: -1402782849203747048
+    second: lens3_125
+  - first:
+      213: 8220869223862048729
+    second: lens3_126
+  - first:
+      213: 107262621081686597
+    second: lens3_127
+  - first:
+      213: 1822657135692276262
+    second: lens3_128
+  - first:
+      213: 8679163380611389564
+    second: lens3_129
+  - first:
+      213: -7563255277671363818
+    second: lens3_130
+  - first:
+      213: 6390656996072748031
+    second: lens3_131
+  - first:
+      213: 7761768681635062191
+    second: lens3_132
+  - first:
+      213: 8534966659513427466
+    second: lens3_133
+  - first:
+      213: 4597455982476510519
+    second: lens3_134
+  - first:
+      213: 1833342854714359387
+    second: lens3_135
+  - first:
+      213: 1630225242816339739
+    second: lens3_136
+  - first:
+      213: 4676786712104875631
+    second: lens3_137
+  - first:
+      213: 5354696155794222818
+    second: lens3_138
+  - first:
+      213: 3319386467582741340
+    second: lens3_139
+  - first:
+      213: -6148403593703496743
+    second: lens3_140
+  - first:
+      213: 543951561385197361
+    second: lens3_141
+  - first:
+      213: -519837961850515833
+    second: lens3_142
+  - first:
+      213: -8095400848742777636
+    second: lens3_143
+  - first:
+      213: 6270161380994589670
+    second: lens3_144
+  - first:
+      213: 8135013867713116294
+    second: lens3_145
+  - first:
+      213: -8027498031189634823
+    second: lens3_146
+  - first:
+      213: -5540254547612998069
+    second: lens3_147
+  - first:
+      213: 7703988814947555620
+    second: lens3_148
+  - first:
+      213: 1632941074085510664
+    second: lens3_149
+  - first:
+      213: -2090387691977075889
+    second: lens3_150
+  - first:
+      213: -3263217574329982301
+    second: lens3_151
+  - first:
+      213: 8088069762850842106
+    second: lens3_152
+  - first:
+      213: -7754698844934095410
+    second: lens3_153
+  - first:
+      213: -3320813477684718967
+    second: lens3_154
+  - first:
+      213: 1556457567103546632
+    second: lens3_155
+  - first:
+      213: 2835961729588817167
+    second: lens3_156
+  - first:
+      213: -5464149367343467015
+    second: lens3_157
+  - first:
+      213: 364627261886513217
+    second: lens3_158
+  - first:
+      213: -5819494686370528268
+    second: lens3_159
+  - first:
+      213: 6782066313988530375
+    second: lens3_160
+  - first:
+      213: -8060593784381317318
+    second: lens3_161
+  - first:
+      213: -2687790118261663708
+    second: lens3_162
+  - first:
+      213: -2228542195412669444
+    second: lens3_163
+  - first:
+      213: 4748994856592016829
+    second: lens3_164
+  - first:
+      213: 5728116240081068368
+    second: lens3_165
+  - first:
+      213: 8427914068974842617
+    second: lens3_166
+  - first:
+      213: 1336685641140875842
+    second: lens3_167
+  - first:
+      213: 5351419277541046365
+    second: lens3_168
+  - first:
+      213: 8779953963519034554
+    second: lens3_169
+  - first:
+      213: 7735363663968684445
+    second: lens3_170
+  - first:
+      213: -1947237589396248673
+    second: lens3_171
+  - first:
+      213: 5559579609025292482
+    second: lens3_172
+  - first:
+      213: -8580176514359821556
+    second: lens3_173
+  - first:
+      213: 3819822113995909531
+    second: lens3_174
+  - first:
+      213: 8774920551535130231
+    second: lens3_175
+  - first:
+      213: 3938765628383439260
+    second: lens3_176
+  - first:
+      213: 7950861717158335854
+    second: lens3_177
+  - first:
+      213: 4892313254298685329
+    second: lens3_178
+  - first:
+      213: 6569472805013834980
+    second: lens3_179
+  - first:
+      213: 80987393280847894
+    second: lens3_180
+  - first:
+      213: 44449713133722816
+    second: lens3_181
+  - first:
+      213: -446179082008737079
+    second: lens3_182
+  - first:
+      213: -4549290649049615474
+    second: lens3_183
+  - first:
+      213: -8207406318904827601
+    second: lens3_184
+  - first:
+      213: 8421786369087967689
+    second: lens3_185
+  - first:
+      213: 8839433494310258751
+    second: lens3_186
+  - first:
+      213: 3757466691629620831
+    second: lens3_187
+  - first:
+      213: -1936724493867371548
+    second: lens3_188
+  - first:
+      213: -8571310997590309682
+    second: lens3_189
+  - first:
+      213: 3541832219061173074
+    second: lens3_190
+  - first:
+      213: -2349856688404520651
+    second: lens3_191
+  - first:
+      213: 1357398831116075309
+    second: lens3_192
+  - first:
+      213: -731812655570146987
+    second: lens3_193
+  - first:
+      213: 6646199212602600336
+    second: lens3_194
+  - first:
+      213: 127464062228214178
+    second: lens3_195
+  - first:
+      213: -962665731739794065
+    second: lens3_196
+  - first:
+      213: -5125659475145557120
+    second: lens3_197
+  - first:
+      213: -719955703275898945
+    second: lens3_198
+  - first:
+      213: -6021413442146426051
+    second: lens3_199
+  - first:
+      213: -1990902045641932265
+    second: lens3_200
+  - first:
+      213: 1101882498422786914
+    second: lens3_201
+  - first:
+      213: -6610725889166085175
+    second: lens3_202
+  - first:
+      213: -3122222555846553659
+    second: lens3_203
+  - first:
+      213: -2610755340974920297
+    second: lens3_204
+  - first:
+      213: -3765140368501292982
+    second: lens3_205
+  - first:
+      213: 692470417505028032
+    second: lens3_206
+  - first:
+      213: -210860514841565924
+    second: lens3_207
+  - first:
+      213: 5776913550624791118
+    second: lens3_208
+  - first:
+      213: 2524250543315437423
+    second: lens3_209
+  - first:
+      213: 1653452617884548295
+    second: lens3_210
+  - first:
+      213: -6385465197295626409
+    second: lens3_211
+  - first:
+      213: 1557365587021332128
+    second: lens3_212
+  - first:
+      213: 7991388239637647932
+    second: lens3_213
+  - first:
+      213: -3047226940512740115
+    second: lens3_214
+  - first:
+      213: -6540656146400336478
+    second: lens3_215
+  - first:
+      213: -888699869529763442
+    second: lens3_216
+  - first:
+      213: -2280728237862197557
+    second: lens3_217
+  - first:
+      213: 9156710971427169597
+    second: lens3_218
+  - first:
+      213: 6550528853955965964
+    second: lens3_219
+  - first:
+      213: 2271820056932997876
+    second: lens3_220
+  - first:
+      213: -8891359217730241911
+    second: lens3_221
+  - first:
+      213: 7448576070837585696
+    second: lens3_222
+  - first:
+      213: 7271593214579805282
+    second: lens3_223
+  - first:
+      213: -97682953429691182
+    second: lens3_224
+  - first:
+      213: -5143732892704755339
+    second: lens3_225
+  - first:
+      213: 6797386971033489775
+    second: lens3_226
+  - first:
+      213: -1680338519906542630
+    second: lens3_227
+  - first:
+      213: -2869044632333755988
+    second: lens3_228
+  - first:
+      213: -916141686465047787
+    second: lens3_229
+  - first:
+      213: 5565350451881390472
+    second: lens3_230
+  - first:
+      213: -228322516523420870
+    second: lens3_231
+  - first:
+      213: 8500440979343395327
+    second: lens3_232
+  - first:
+      213: -5966957065901189138
+    second: lens3_233
+  - first:
+      213: 5884685799231007589
+    second: lens3_234
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lens3_0
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 677
+        width: 25
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e6f81961e44f140800000000000000
+      internalID: 4752509365621059169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_1
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1050
+        width: 6
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c3944abbdc09b10800000000000000
+      internalID: 1986313641469230229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_2
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1038
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab657baedb51153a0800000000000000
+      internalID: -6678532866982848838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_3
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1054
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78de15dec79081b0800000000000000
+      internalID: -5656354217382717316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_4
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 668
+        width: 10
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d8b260bc6e4b620800000000000000
+      internalID: 2789107828905446700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_5
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1020
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74bcecd274635f90800000000000000
+      internalID: -6966113754116475779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1031
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2c30132968146e0800000000000000
+      internalID: -1855053609054256405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_7
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1027
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c29c871116bcd40800000000000000
+      internalID: 5605680888861502612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_8
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 814
+        width: 188
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f260895affff76c0800000000000000
+      internalID: -4143311681449073930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_9
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1000
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca393cd98e1111f80800000000000000
+      internalID: -8137703360904850516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_10
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 981
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636f01f99abcd5f20800000000000000
+      internalID: 3413108021995304502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_11
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 984
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe837968b7ec5b90800000000000000
+      internalID: -7251666520744161604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_12
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 991
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c235998e69cf1c90800000000000000
+      internalID: -7196812202922921275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_13
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 972
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a304140da06c2f0800000000000000
+      internalID: -953062381578077692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_14
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 984
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143ceb8de0d477360800000000000000
+      internalID: 7167282058144695105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_15
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 974
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6e9ac3793e531c0800000000000000
+      internalID: -4524460011926460755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_16
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 917
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c994af2c767f410800000000000000
+      internalID: 1510790287126535319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_17
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 785
+        width: 144
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7edf8bb718174d10800000000000000
+      internalID: 2109681440656449149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_18
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 953
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92819426e6ba058b0800000000000000
+      internalID: -5165440282010249175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_19
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 919
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30cf7da6e3ce36c0800000000000000
+      internalID: -4161673610123034561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_20
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 943
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35fb88d03f56f8e0800000000000000
+      internalID: -1660034749243329217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_21
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 751
+        width: 163
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06614d8ba02b2d7c0800000000000000
+      internalID: -4047977355932330400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_22
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 908
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f3fca9574998590800000000000000
+      internalID: -7671437257419571437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_23
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 911
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5a079f11a4bd510800000000000000
+      internalID: 1574933935755929070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_24
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 933
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83812b55b9dfecf10800000000000000
+      internalID: 2292048103977654328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_25
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 908
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbef511e11cd1390800000000000000
+      internalID: -7845902640924857414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_26
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 910
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4062530f4a815d8e0800000000000000
+      internalID: -1669400990187182588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_27
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 875
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c66dde080fc19510800000000000000
+      internalID: 1554250979935610568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_28
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 848
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eb904f5a201bad0800000000000000
+      internalID: -2688364590776336827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_29
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 872
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002b11ab3f0ec2430800000000000000
+      internalID: 3759627126350918144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_30
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 863
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c89a016f462d850800000000000000
+      internalID: 6400289028451175438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_31
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 860
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f763e41c8e9634840800000000000000
+      internalID: 5207122042566882943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_32
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 837
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1804a16f2bf1d50800000000000000
+      internalID: 6710278739877462493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_33
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 840
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804738d93f133fae0800000000000000
+      internalID: -1516813727104273400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_34
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 829
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17cfbc7463008f80800000000000000
+      internalID: -8106475599142336741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_35
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 819
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e52979d0e3d8b40800000000000000
+      internalID: 5444075752659246607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_36
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 840
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ade46b8c4feed70800000000000000
+      internalID: 9074459442087385600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_37
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 840
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbf4f5b81960c0f0800000000000000
+      internalID: -1098762754225538117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_38
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 795
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25f2044a153ffa70800000000000000
+      internalID: 8862860978614891821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_39
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 777
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dbf4f5fb2a02180800000000000000
+      internalID: -9142128300740592274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_40
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 802
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1273899a13be91a00800000000000000
+      internalID: 727871413328295713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_41
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 805
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdd56b14d5e9af80800000000000000
+      internalID: -8094686156066267720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_42
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 790
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a313fcefe61f350800000000000000
+      internalID: 6048737815212145227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_43
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 540
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3c5de28f330f9e0800000000000000
+      internalID: -1589713527431117836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_44
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 812
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406c56af26cbdb0a0800000000000000
+      internalID: -6864123123748977148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_45
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 777
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8031c56c87dc8670800000000000000
+      internalID: 8542439591217541262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_46
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 784
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b744247debcfcc0800000000000000
+      internalID: -3675853364102137078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_47
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 614
+        width: 103
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea65b8412e38cb930800000000000000
+      internalID: 4160345162814019246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_48
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 797
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4a7b5db8aa35f30800000000000000
+      internalID: 4563178365019202809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_49
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 777
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da12303c17eed9720800000000000000
+      internalID: 2854699911193239981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_50
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 757
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0921d9fac268f320800000000000000
+      internalID: 2591930209465870606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_51
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 754
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf7e78958d9a90c0800000000000000
+      internalID: -4568165674899308598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_52
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 779
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9d3184438db9320800000000000000
+      internalID: 2565882131776788971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_53
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 777
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a624bd50934f8d2d0800000000000000
+      internalID: -3253582205026614678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_54
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 748
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a0b44072b9293d0800000000000000
+      internalID: -3201325793228944801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_55
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 749
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663b7b6a92c0d9cf0800000000000000
+      internalID: -244025431777889434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_56
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 760
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bdd5503f2891200800000000000000
+      internalID: 151296042772323228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_57
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 670
+        width: 56
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adce9843794ca350800000000000000
+      internalID: 6029274760630685097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_58
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 756
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d85cdd393cdacfe0800000000000000
+      internalID: -1167879014940124968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_59
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 732
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2ff9943e8015220800000000000000
+      internalID: 2472767442688930468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_60
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 738
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d20291cc2cd3aed0800000000000000
+      internalID: -2403835691301469484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_61
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 697
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb0b9517688e5ed0800000000000000
+      internalID: -2423349573153256497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_62
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 687
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87195e4b4eb5d3ee0800000000000000
+      internalID: -1279765681257737864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_63
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 686
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803d3d6127b89cac0800000000000000
+      internalID: -3834380285603753208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_64
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 722
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2ad7285f6df4430800000000000000
+      internalID: 3769467763076997886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_65
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 728
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad062f1bc71631b00800000000000000
+      internalID: 798088747164000474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_66
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 681
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83343253b9e4d3330800000000000000
+      internalID: 3692193698032075576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_67
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 706
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8662a5a752e1190800000000000000
+      internalID: -7989907481479976788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_68
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 693
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f49ab01c8c08b60800000000000000
+      internalID: 7746412090527141768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_69
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 693
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbbe291e075c79b0800000000000000
+      internalID: -5081090561517110306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_70
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 676
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26c2406977cdeef0800000000000000
+      internalID: -77186294475471316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_71
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 657
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9f9e2bd8bba5030800000000000000
+      internalID: 3484303478990961076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_72
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 676
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0244c97303724680800000000000000
+      internalID: -8772322665399303669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_73
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 651
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16a8d9fe43a9a5a0800000000000000
+      internalID: -6509492226792839653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_74
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 668
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1689e00745efbba0800000000000000
+      internalID: -6070881679551396321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_75
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 676
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1fe8654189fda30800000000000000
+      internalID: 4242276587125273045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_76
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 654
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c409cabd07151b830800000000000000
+      internalID: 4085135882165456972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_77
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 615
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b423f2136f0cd70800000000000000
+      internalID: 9061513141375093581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_78
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 609
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0c6b7a0f062e7c0800000000000000
+      internalID: -4043562928703094594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_79
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 571
+        width: 91
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d09d011a412cc40800000000000000
+      internalID: 5531005974369340758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_80
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 609
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b204b4a018f85ab90800000000000000
+      internalID: -7231215842287206357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_81
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 593
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44b9651f8a3df1f0800000000000000
+      internalID: -1009586355247139761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_82
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 624
+        width: 58
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a553649486f04f290800000000000000
+      internalID: -7857638509274319526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_83
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 608
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d616daba147a8b20800000000000000
+      internalID: 3137447748569536208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_84
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 611
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cfe260df65f96e0800000000000000
+      internalID: -1828647278958674836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_85
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 610
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a954085ded5007000800000000000000
+      internalID: 31531652014425498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_86
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 596
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7957e4f642d0ee00800000000000000
+      internalID: 1072087913512524157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_87
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 562
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00507724e9a57a80800000000000000
+      internalID: -8469676726821040118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_88
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 585
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901a4ae3118d5ab70800000000000000
+      internalID: 8909765006399414537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_89
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 592
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2b0e5e50e2af380800000000000000
+      internalID: -8936779907696905498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_90
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 559
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb7564d2b3b1bff0800000000000000
+      internalID: -22038942511170610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_91
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 577
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d8e63e565dc0910800000000000000
+      internalID: 1805052184252812619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_92
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 561
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bc526847d0dc7e0800000000000000
+      internalID: -1743722686604522652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_93
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 567
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cbe61d50e1bd950800000000000000
+      internalID: 6474801899612585010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_94
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 575
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a042ff6d59f61bf0800000000000000
+      internalID: -353821340996583255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_95
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 559
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0676db9d7c5f5b460800000000000000
+      internalID: 7256976613277788000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_96
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 567
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ceb706d1ad7f24a0800000000000000
+      internalID: -6615931193549930809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_97
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 554
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b268cba9172b29230800000000000000
+      internalID: 3644171249493247531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_98
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 552
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3cf7f41607a2180800000000000000
+      internalID: -9139368930547088414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_99
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 562
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b106e8bbc6bf04480800000000000000
+      internalID: -8916850817771872229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_100
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 569
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c74cc9cdec85ac0800000000000000
+      internalID: -3866112833179321239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_101
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 557
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc53f0fa18bcc7840800000000000000
+      internalID: 5223273425691162059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_102
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 532
+        width: 85
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faae6eadc5607e9f0800000000000000
+      internalID: -439375442766009681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_103
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 560
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d580963c54510b7e0800000000000000
+      internalID: -1751876865671755683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_104
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 554
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f1dfcd80f23dcd0800000000000000
+      internalID: -2534630450165637301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_105
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 533
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4548d753274e03650800000000000000
+      internalID: 6210715065318736980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_106
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 537
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29403ec98756f8b0800000000000000
+      internalID: -5118807677078582994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_107
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 534
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85d5d8555e188430800000000000000
+      internalID: 3785308838716364172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_108
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 508
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb0f904b5f64a5e0800000000000000
+      internalID: -1899270705126634530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_109
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 543
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2a3e525cdd312e0800000000000000
+      internalID: -2156135957766364512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_110
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 544
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afea389e2e4e2ba0800000000000000
+      internalID: -6111861682265722970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_111
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 553
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482a94d155e9c63c0800000000000000
+      internalID: -4364939850428079484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_112
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 538
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8806ca01f68009dd0800000000000000
+      internalID: -2481474121567018872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_113
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 543
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dc50d1eb256aa20800000000000000
+      internalID: 3073234772211125616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_114
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 514
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df22d634a0e6a7740800000000000000
+      internalID: 5150550114211537661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_115
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 545
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e64ec8927fdd4a0800000000000000
+      internalID: -6566820923806814656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_116
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 526
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76d55984e572e9d0800000000000000
+      internalID: -2746503198325483906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_117
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 514
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452fb13b7cc76d5f0800000000000000
+      internalID: -732260692255837612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_118
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 461
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0087bcea5bb4163e0800000000000000
+      internalID: -2062283910665242624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_119
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 527
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d3c5393f9b2aaf0800000000000000
+      internalID: -386542162199954058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_120
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 393
+        width: 65
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ce9934c7b68e4e0800000000000000
+      internalID: -1952192257010832234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_121
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 524
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb569bc81432b2c0800000000000000
+      internalID: -4417411003397547059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_122
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 509
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed727afc171704a80800000000000000
+      internalID: -8484656964336932898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_123
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 531
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491071b404d694340800000000000000
+      internalID: 4848526596746183060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_124
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 517
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273c75c7fae63ee10800000000000000
+      internalID: 2225744340835615602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_125
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 410
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81743305e60588ce0800000000000000
+      internalID: -1402782849203747048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_126
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 521
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d71d39c005661270800000000000000
+      internalID: 8220869223862048729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_127
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 518
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542504b19c21d7100800000000000000
+      internalID: 107262621081686597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_128
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 509
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622e44012016b4910800000000000000
+      internalID: 1822657135692276262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_129
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 478
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c789be84c15927870800000000000000
+      internalID: 8679163380611389564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_130
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 499
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bccc4956be90790800000000000000
+      internalID: -7563255277671363818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_131
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 513
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3f744cdac20b850800000000000000
+      internalID: 6390656996072748031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_132
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 496
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa12c990e7757bb60800000000000000
+      internalID: 7761768681635062191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_133
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 503
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06a916e4fa427670800000000000000
+      internalID: 8534966659513427466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_134
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 500
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735c1029bd17dcf30800000000000000
+      internalID: 4597455982476510519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_135
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 489
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5effb6ec97517910800000000000000
+      internalID: 1833342854714359387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_136
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 488
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f51f59839bf9610800000000000000
+      internalID: 1630225242816339739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_137
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 495
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6637496cb847e040800000000000000
+      internalID: 4676786712104875631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_138
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 4
+        width: 31
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eea34688c3bf4a40800000000000000
+      internalID: 5354696155794222818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_139
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 419
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b0288c764d01e20800000000000000
+      internalID: 3319386467582741340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_140
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 489
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d36195d18b7caaa0800000000000000
+      internalID: -6148403593703496743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_141
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 477
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f326720118c8700800000000000000
+      internalID: 543951561385197361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_142
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 463
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e032fb02a29c8f0800000000000000
+      internalID: -519837961850515833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_143
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 457
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc7a40c1db57af80800000000000000
+      internalID: -8095400848742777636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_144
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 440
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e32e862e86140750800000000000000
+      internalID: 6270161380994589670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_145
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 475
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688bae3f20065e070800000000000000
+      internalID: 8135013867713116294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_146
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 478
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f05bc77219989090800000000000000
+      internalID: -8027498031189634823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_147
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 468
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46e84ca7df0d13b0800000000000000
+      internalID: -5540254547612998069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_148
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 456
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429188c72011aea60800000000000000
+      internalID: 7703988814947555620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_149
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 457
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ef204514f59a610800000000000000
+      internalID: 1632941074085510664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_150
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 7
+        width: 21
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f439bd038737df2e0800000000000000
+      internalID: -2090387691977075889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_151
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 452
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2ef39c7e8b6b2d0800000000000000
+      internalID: -3263217574329982301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_152
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 438
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af56d4dc8989e3070800000000000000
+      internalID: 8088069762850842106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_153
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 434
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd32979c76c16490800000000000000
+      internalID: -7754698844934095410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_154
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 419
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982d5498cb91ae1d0800000000000000
+      internalID: -3320813477684718967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_155
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 363
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805fc2b29e5a99510800000000000000
+      internalID: 1556457567103546632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_156
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 403
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d6eb0ea2c5b5720800000000000000
+      internalID: 2835961729588817167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_157
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 410
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f531d7c9117b24b0800000000000000
+      internalID: -5464149367343467015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_158
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 408
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1404b24109a6f0500800000000000000
+      internalID: 364627261886513217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_159
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 285
+        width: 40
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f38c9e6a600d3fa0800000000000000
+      internalID: -5819494686370528268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_160
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 421
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0ed60316dbe1e50800000000000000
+      internalID: 6782066313988530375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_161
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 385
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fda33f8a4032090800000000000000
+      internalID: -8060593784381317318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_162
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 390
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4285532c02d03bad0800000000000000
+      internalID: -2687790118261663708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_163
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 377
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb657b3ea0a211e0800000000000000
+      internalID: -2228542195412669444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_164
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 401
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5035b29a1d7e140800000000000000
+      internalID: 4748994856592016829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_165
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 393
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051ad2a1f5b5e7f40800000000000000
+      internalID: 5728116240081068368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_166
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 385
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f233c65137f5f470800000000000000
+      internalID: 8427914068974842617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_167
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2423190328cdc8210800000000000000
+      internalID: 1336685641140875842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_168
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 375
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58f20ada7f044a40800000000000000
+      internalID: 5351419277541046365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_169
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4c5d39c99a8d970800000000000000
+      internalID: 8779953963519034554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_170
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 372
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d994157c448895b60800000000000000
+      internalID: 7735363663968684445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_171
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 370
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97afb6bab50af4e0800000000000000
+      internalID: -1947237589396248673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_172
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 382
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c82570d238972d40800000000000000
+      internalID: 5559579609025292482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_173
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 340
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bfe6f7be61de880800000000000000
+      internalID: -8580176514359821556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_174
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 179
+        width: 144
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9968e179fbb20530800000000000000
+      internalID: 3819822113995909531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_175
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 346
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776b68600c7c6c970800000000000000
+      internalID: 8774920551535130231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_176
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 204
+        width: 163
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c992055787e49a630800000000000000
+      internalID: 3938765628383439260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_177
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 347
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6599753b92275e60800000000000000
+      internalID: 7950861717158335854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_178
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 296
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f8864fbfcf4e340800000000000000
+      internalID: 4892313254298685329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_179
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 324
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec4078a5b47b2b50800000000000000
+      internalID: 6569472805013834980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_180
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 275
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6103ac7ea99bf1100800000000000000
+      internalID: 80987393280847894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_181
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 307
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc14b157caed9000800000000000000
+      internalID: 44449713133722816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_182
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 284
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cac8a62d7adec9f0800000000000000
+      internalID: -446179082008737079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_183
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 282
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e833463024cadd0c0800000000000000
+      internalID: -4549290649049615474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_184
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 289
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21a16a007f691e80800000000000000
+      internalID: -8207406318904827601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_185
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 241
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c117b7051230e470800000000000000
+      internalID: 8421786369087967689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_186
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 275
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f388d040ee9fbaa70800000000000000
+      internalID: 8839433494310258751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_187
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 265
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e12f15c04352430800000000000000
+      internalID: 3757466691629620831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_188
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 280
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3bc33855f5f15e0800000000000000
+      internalID: -1936724493867371548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_189
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 284
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec40b397f069c0980800000000000000
+      internalID: -8571310997590309682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_190
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 272
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bbc2743ad172130800000000000000
+      internalID: 3541832219061173074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_191
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 255
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531a29ebac1a36fd0800000000000000
+      internalID: -2349856688404520651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_192
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 223
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21443b8b0376d210800000000000000
+      internalID: 1357398831116075309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_193
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 209
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5592b9e544418d5f0800000000000000
+      internalID: -731812655570146987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_194
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 220
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ba8a588fa0c3c50800000000000000
+      internalID: 6646199212602600336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_195
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 50
+        width: 161
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1bdb6a3e7d4c100800000000000000
+      internalID: 127464062228214178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_196
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 205
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65453e0e9ce3a2f0800000000000000
+      internalID: -962665731739794065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_197
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 164
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b75504ddffdd8b0800000000000000
+      internalID: -5125659475145557120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_198
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 210
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb739343a143206f0800000000000000
+      internalID: -719955703275898945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_199
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 150
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33a91f8064af6ca0800000000000000
+      internalID: -6021413442146426051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_200
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 173
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7120ae24325ee54e0800000000000000
+      internalID: -1990902045641932265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_201
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 163
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bc5b65b4caa4f00800000000000000
+      internalID: 1101882498422786914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_202
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 153
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3f6c434dbf144a0800000000000000
+      internalID: -6610725889166085175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_203
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 148
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfcd01b023aba4d0800000000000000
+      internalID: -3122222555846553659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_204
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 172
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d6cb989dbb4cbd0800000000000000
+      internalID: -2610755340974920297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_205
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 168
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a404ffd88c88fbbc0800000000000000
+      internalID: -3765140368501292982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_206
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 154
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c78ad40d262c9900800000000000000
+      internalID: 692470417505028032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_207
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 123
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1566bb9a7fd21df0800000000000000
+      internalID: -210860514841565924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_208
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 134
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a91235448bb2050800000000000000
+      internalID: 5776913550624791118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_209
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 131
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67476ebe70f70320800000000000000
+      internalID: 2524250543315437423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_210
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 9
+        width: 51
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccb2f5456e32f610800000000000000
+      internalID: 1653452617884548295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_211
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 118
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75713951c354267a0800000000000000
+      internalID: -6385465197295626409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_212
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 105
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aef2d700cfdc9510800000000000000
+      internalID: 1557365587021332128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_213
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 76
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3216d5834d17ee60800000000000000
+      internalID: 7991388239637647932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_214
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 98
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decdcb41e3316b5d0800000000000000
+      internalID: -3047226940512740115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_215
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 108
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a525d383ebea35a0800000000000000
+      internalID: -6540656146400336478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_216
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e811ebc5d24baa3f0800000000000000
+      internalID: -888699869529763442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_217
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 82
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6650160c93950e0800000000000000
+      internalID: -2280728237862197557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_218
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35a6da3d1c231f70800000000000000
+      internalID: 9156710971427169597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_219
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 55
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04fdf6594728ea50800000000000000
+      internalID: 6550528853955965964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_220
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 39
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa591f1e40278f10800000000000000
+      internalID: 2271820056932997876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_221
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 46
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a3bc066eb8b9480800000000000000
+      internalID: -8891359217730241911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_222
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 42
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027cfb0e878ae5760800000000000000
+      internalID: 7448576070837585696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_223
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 22
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c8b2a8083e9e460800000000000000
+      internalID: 7271593214579805282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_224
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d456341fd5f4aef0800000000000000
+      internalID: -97682953429691182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_225
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 29
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57137decf2acd98b0800000000000000
+      internalID: -5143732892704755339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_226
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 26
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61d151af6b255e50800000000000000
+      internalID: 6797386971033489775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_227
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 25
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb909ad40d3ea8e0800000000000000
+      internalID: -1680338519906542630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_228
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 25
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca951059b1b1f28d0800000000000000
+      internalID: -2869044632333755988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_229
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 0
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513d2567df53943f0800000000000000
+      internalID: -916141686465047787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_230
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 13
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88133fedfb81c3d40800000000000000
+      internalID: 5565350451881390472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_231
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 18
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33f56481e5d4dcf0800000000000000
+      internalID: -228322516523420870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_232
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9cfef8802a7f570800000000000000
+      internalID: 8500440979343395327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_233
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7d3f0b92c113da0800000000000000
+      internalID: -5966957065901189138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lens3_234
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b23f55e8a9aa150800000000000000
+      internalID: 5884685799231007589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lens3_0: 4752509365621059169
+      lens3_1: 1986313641469230229
+      lens3_10: 3413108021995304502
+      lens3_100: -3866112833179321239
+      lens3_101: 5223273425691162059
+      lens3_102: -439375442766009681
+      lens3_103: -1751876865671755683
+      lens3_104: -2534630450165637301
+      lens3_105: 6210715065318736980
+      lens3_106: -5118807677078582994
+      lens3_107: 3785308838716364172
+      lens3_108: -1899270705126634530
+      lens3_109: -2156135957766364512
+      lens3_11: -7251666520744161604
+      lens3_110: -6111861682265722970
+      lens3_111: -4364939850428079484
+      lens3_112: -2481474121567018872
+      lens3_113: 3073234772211125616
+      lens3_114: 5150550114211537661
+      lens3_115: -6566820923806814656
+      lens3_116: -2746503198325483906
+      lens3_117: -732260692255837612
+      lens3_118: -2062283910665242624
+      lens3_119: -386542162199954058
+      lens3_12: -7196812202922921275
+      lens3_120: -1952192257010832234
+      lens3_121: -4417411003397547059
+      lens3_122: -8484656964336932898
+      lens3_123: 4848526596746183060
+      lens3_124: 2225744340835615602
+      lens3_125: -1402782849203747048
+      lens3_126: 8220869223862048729
+      lens3_127: 107262621081686597
+      lens3_128: 1822657135692276262
+      lens3_129: 8679163380611389564
+      lens3_13: -953062381578077692
+      lens3_130: -7563255277671363818
+      lens3_131: 6390656996072748031
+      lens3_132: 7761768681635062191
+      lens3_133: 8534966659513427466
+      lens3_134: 4597455982476510519
+      lens3_135: 1833342854714359387
+      lens3_136: 1630225242816339739
+      lens3_137: 4676786712104875631
+      lens3_138: 5354696155794222818
+      lens3_139: 3319386467582741340
+      lens3_14: 7167282058144695105
+      lens3_140: -6148403593703496743
+      lens3_141: 543951561385197361
+      lens3_142: -519837961850515833
+      lens3_143: -8095400848742777636
+      lens3_144: 6270161380994589670
+      lens3_145: 8135013867713116294
+      lens3_146: -8027498031189634823
+      lens3_147: -5540254547612998069
+      lens3_148: 7703988814947555620
+      lens3_149: 1632941074085510664
+      lens3_15: -4524460011926460755
+      lens3_150: -2090387691977075889
+      lens3_151: -3263217574329982301
+      lens3_152: 8088069762850842106
+      lens3_153: -7754698844934095410
+      lens3_154: -3320813477684718967
+      lens3_155: 1556457567103546632
+      lens3_156: 2835961729588817167
+      lens3_157: -5464149367343467015
+      lens3_158: 364627261886513217
+      lens3_159: -5819494686370528268
+      lens3_16: 1510790287126535319
+      lens3_160: 6782066313988530375
+      lens3_161: -8060593784381317318
+      lens3_162: -2687790118261663708
+      lens3_163: -2228542195412669444
+      lens3_164: 4748994856592016829
+      lens3_165: 5728116240081068368
+      lens3_166: 8427914068974842617
+      lens3_167: 1336685641140875842
+      lens3_168: 5351419277541046365
+      lens3_169: 8779953963519034554
+      lens3_17: 2109681440656449149
+      lens3_170: 7735363663968684445
+      lens3_171: -1947237589396248673
+      lens3_172: 5559579609025292482
+      lens3_173: -8580176514359821556
+      lens3_174: 3819822113995909531
+      lens3_175: 8774920551535130231
+      lens3_176: 3938765628383439260
+      lens3_177: 7950861717158335854
+      lens3_178: 4892313254298685329
+      lens3_179: 6569472805013834980
+      lens3_18: -5165440282010249175
+      lens3_180: 80987393280847894
+      lens3_181: 44449713133722816
+      lens3_182: -446179082008737079
+      lens3_183: -4549290649049615474
+      lens3_184: -8207406318904827601
+      lens3_185: 8421786369087967689
+      lens3_186: 8839433494310258751
+      lens3_187: 3757466691629620831
+      lens3_188: -1936724493867371548
+      lens3_189: -8571310997590309682
+      lens3_19: -4161673610123034561
+      lens3_190: 3541832219061173074
+      lens3_191: -2349856688404520651
+      lens3_192: 1357398831116075309
+      lens3_193: -731812655570146987
+      lens3_194: 6646199212602600336
+      lens3_195: 127464062228214178
+      lens3_196: -962665731739794065
+      lens3_197: -5125659475145557120
+      lens3_198: -719955703275898945
+      lens3_199: -6021413442146426051
+      lens3_2: -6678532866982848838
+      lens3_20: -1660034749243329217
+      lens3_200: -1990902045641932265
+      lens3_201: 1101882498422786914
+      lens3_202: -6610725889166085175
+      lens3_203: -3122222555846553659
+      lens3_204: -2610755340974920297
+      lens3_205: -3765140368501292982
+      lens3_206: 692470417505028032
+      lens3_207: -210860514841565924
+      lens3_208: 5776913550624791118
+      lens3_209: 2524250543315437423
+      lens3_21: -4047977355932330400
+      lens3_210: 1653452617884548295
+      lens3_211: -6385465197295626409
+      lens3_212: 1557365587021332128
+      lens3_213: 7991388239637647932
+      lens3_214: -3047226940512740115
+      lens3_215: -6540656146400336478
+      lens3_216: -888699869529763442
+      lens3_217: -2280728237862197557
+      lens3_218: 9156710971427169597
+      lens3_219: 6550528853955965964
+      lens3_22: -7671437257419571437
+      lens3_220: 2271820056932997876
+      lens3_221: -8891359217730241911
+      lens3_222: 7448576070837585696
+      lens3_223: 7271593214579805282
+      lens3_224: -97682953429691182
+      lens3_225: -5143732892704755339
+      lens3_226: 6797386971033489775
+      lens3_227: -1680338519906542630
+      lens3_228: -2869044632333755988
+      lens3_229: -916141686465047787
+      lens3_23: 1574933935755929070
+      lens3_230: 5565350451881390472
+      lens3_231: -228322516523420870
+      lens3_232: 8500440979343395327
+      lens3_233: -5966957065901189138
+      lens3_234: 5884685799231007589
+      lens3_24: 2292048103977654328
+      lens3_25: -7845902640924857414
+      lens3_26: -1669400990187182588
+      lens3_27: 1554250979935610568
+      lens3_28: -2688364590776336827
+      lens3_29: 3759627126350918144
+      lens3_3: -5656354217382717316
+      lens3_30: 6400289028451175438
+      lens3_31: 5207122042566882943
+      lens3_32: 6710278739877462493
+      lens3_33: -1516813727104273400
+      lens3_34: -8106475599142336741
+      lens3_35: 5444075752659246607
+      lens3_36: 9074459442087385600
+      lens3_37: -1098762754225538117
+      lens3_38: 8862860978614891821
+      lens3_39: -9142128300740592274
+      lens3_4: 2789107828905446700
+      lens3_40: 727871413328295713
+      lens3_41: -8094686156066267720
+      lens3_42: 6048737815212145227
+      lens3_43: -1589713527431117836
+      lens3_44: -6864123123748977148
+      lens3_45: 8542439591217541262
+      lens3_46: -3675853364102137078
+      lens3_47: 4160345162814019246
+      lens3_48: 4563178365019202809
+      lens3_49: 2854699911193239981
+      lens3_5: -6966113754116475779
+      lens3_50: 2591930209465870606
+      lens3_51: -4568165674899308598
+      lens3_52: 2565882131776788971
+      lens3_53: -3253582205026614678
+      lens3_54: -3201325793228944801
+      lens3_55: -244025431777889434
+      lens3_56: 151296042772323228
+      lens3_57: 6029274760630685097
+      lens3_58: -1167879014940124968
+      lens3_59: 2472767442688930468
+      lens3_6: -1855053609054256405
+      lens3_60: -2403835691301469484
+      lens3_61: -2423349573153256497
+      lens3_62: -1279765681257737864
+      lens3_63: -3834380285603753208
+      lens3_64: 3769467763076997886
+      lens3_65: 798088747164000474
+      lens3_66: 3692193698032075576
+      lens3_67: -7989907481479976788
+      lens3_68: 7746412090527141768
+      lens3_69: -5081090561517110306
+      lens3_7: 5605680888861502612
+      lens3_70: -77186294475471316
+      lens3_71: 3484303478990961076
+      lens3_72: -8772322665399303669
+      lens3_73: -6509492226792839653
+      lens3_74: -6070881679551396321
+      lens3_75: 4242276587125273045
+      lens3_76: 4085135882165456972
+      lens3_77: 9061513141375093581
+      lens3_78: -4043562928703094594
+      lens3_79: 5531005974369340758
+      lens3_8: -4143311681449073930
+      lens3_80: -7231215842287206357
+      lens3_81: -1009586355247139761
+      lens3_82: -7857638509274319526
+      lens3_83: 3137447748569536208
+      lens3_84: -1828647278958674836
+      lens3_85: 31531652014425498
+      lens3_86: 1072087913512524157
+      lens3_87: -8469676726821040118
+      lens3_88: 8909765006399414537
+      lens3_89: -8936779907696905498
+      lens3_9: -8137703360904850516
+      lens3_90: -22038942511170610
+      lens3_91: 1805052184252812619
+      lens3_92: -1743722686604522652
+      lens3_93: 6474801899612585010
+      lens3_94: -353821340996583255
+      lens3_95: 7256976613277788000
+      lens3_96: -6615931193549930809
+      lens3_97: 3644171249493247531
+      lens3_98: -9139368930547088414
+      lens3_99: -8916850817771872229
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

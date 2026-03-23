@@ -139,12 +139,6 @@ public class CharginChuck : EnemyBase
         
         if (currentState == ChuckState.Hurt) return; // Evita hits duplos rápidos
 
-        // ✨ AQUI: Registra o combo de pontos no local do Chuck a cada pisão que ele toma!
-        if (GameController.instance != null)
-        {
-            GameController.instance.RegisterComboHit(transform.position);
-        }
-
         // 1. Lógica de Dano Diferenciado (Mario a pé vs Yoshi)
         int damageTaken = 1; // Pulo normal tira 1 de HP
 

@@ -12,7 +12,7 @@ public class Coin : ItemBase
 
     // 🔒 TRAVAS DE SEGURANÇA
     [HideInInspector] public bool isSolidBlock = false; 
-    private bool isCollected = false; // <-- A MÁGICA ACONTECE AQUI!
+    private bool isCollected = false;
 
     [Header("Efeitos Visuais")]
     public GameObject collectEffectPrefab; 
@@ -29,18 +29,14 @@ public class Coin : ItemBase
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // 🛑 TRAVA ABSOLUTA:
-        // Se já foi coletada nesse frame OU é um bloco sólido, ignora!
         if (isCollected || isSolidBlock) return;
 
         if (other.CompareTag("Player"))
         {
-            // 🛑 NOVA TRAVA DA FRUTA:
             if (isFruit)
             {
                 Yoshi yoshi = other.GetComponent<Yoshi>();
                 if (yoshi == null) yoshi = other.GetComponentInParent<Yoshi>();
-
                 if (yoshi != null && yoshi.IsMouthFull())
                 {
                     return; 

@@ -122,11 +122,17 @@ public class GoalGate : MonoBehaviour
     {
         levelFinished = true;
 
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopBGM();
+            if (AudioManager.instance != null) AudioManager.instance.SetYoshiDrums(false);
+            if (AudioManager.instance != null) AudioManager.instance.PlaySFX("Checkpoint");
+            AudioManager.instance.PlaySFX("CourseClear");
+        }
+
         if (GameController.instance) 
         {
             GameController.instance.AddBonusStars(starsAwarded);
-            
-            // 🛑 A SOLUÇÃO DO PROBLEMA 2: Limpa o checkpoint ao vencer a fase!
             GameController.instance.ClearCheckpoint(); 
         }
 

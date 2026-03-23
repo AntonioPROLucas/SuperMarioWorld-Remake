@@ -54,7 +54,6 @@ public class KoopaTroopa : EnemyBase
 
     void FixedUpdate()
     {
-        // 🛑 TRAVA DE ATIVAÇÃO
         // Se a otimização estiver ligada e ele ainda não foi ativado, não faz nada.
         if (activateOnVisible && !isActivated) return;
 
@@ -98,12 +97,6 @@ public class KoopaTroopa : EnemyBase
     public override void OnStomped(GameObject stomper)
     {
         if (isDead) return;
-
-        // ✨ A MÁGICA AQUI: Registra o combo de pontos na posição do Koopa!
-        if (GameController.instance != null)
-        {
-            GameController.instance.RegisterComboHit(transform.position);
-        }
 
         // 1. Efeito Visual de Hit
         if (hitEffectPrefab != null)
@@ -188,7 +181,6 @@ public class KoopaTroopa : EnemyBase
         if (isDead) return;
         isDead = true;
         
-        // 🛑 AJUSTE FINO AQUI:
         // Se estiver DENTRO do casco, toca a animação (para virar sprite de casco fechado).
         // Se estiver FORA (pelado), NÃO toca trigger (usa o sprite atual virado).
         if (currentState == KoopaState.WithShell)
@@ -257,7 +249,6 @@ public class KoopaTroopa : EnemyBase
         }
     }
 
-    // Mantemos OnTrigger também para garantir (caso o casco vire trigger em algum momento)
     protected override void OnTriggerEnter2D(Collider2D other)
     {
         base.OnTriggerEnter2D(other); // Chama lógica de morte por zona

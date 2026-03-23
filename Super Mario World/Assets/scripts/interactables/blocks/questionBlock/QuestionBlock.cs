@@ -71,6 +71,7 @@ public class QuestionBlock : BlockBase
                 sceneCoin.LaunchItem(); // Faz ela pular (visual)
                 Destroy(sceneCoin.gameObject, 0.5f);
                 if(sceneCoin.GetComponent<Collider2D>()) sceneCoin.GetComponent<Collider2D>().enabled = false;
+                AudioManager.instance.PlaySFX("Coin");
             }
             return;
         }
