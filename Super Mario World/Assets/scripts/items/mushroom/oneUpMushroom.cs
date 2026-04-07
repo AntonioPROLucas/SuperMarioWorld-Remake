@@ -14,7 +14,7 @@ public class OneUpMushroom : MonoBehaviour
     void FixedUpdate()
     {
         // Movimento simples (igual Goomba/Cogumelo Vermelho)
-        rb.velocity = new Vector2(speed * direction, rb.velocity.y);
+        rb.linearVelocity = new Vector2(speed * direction, rb.linearVelocity.y);
     }
 
     void OnCollisionEnter2D(Collision2D collision)

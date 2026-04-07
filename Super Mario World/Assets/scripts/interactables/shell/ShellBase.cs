@@ -246,10 +246,13 @@ public class ShellBase : HoldableObject
     
     void OnBecameInvisible()
     {
-        if (isBroken) return; // Se já quebrou, ignora (DieByImpact cuida dele)
+        if (isBroken) return; // Se já quebrou, ignora
 
-        // Inicia a contagem de 3 segundos antes de destruir
-        if (gameObject.activeInHierarchy) // Segurança extra
+        // O SEGURANÇA: Se estiver parado ou sendo segurado pelo Mario, não faz NADA.
+        if (state == ShellState.Idle || state == ShellState.Held) return; 
+
+        // Inicia a contagem de 3 segundos antes de destruir (apenas se estiver em movimento)
+        if (gameObject.activeInHierarchy) 
         {
             destroyOffScreenRoutine = StartCoroutine(DestroyOffScreenDelay(3f));
         }
@@ -270,8 +273,11 @@ public class ShellBase : HoldableObject
     {
         yield return new WaitForSeconds(delay);
         
-        // Se ainda não voltou pra tela após o tempo, tchau!
-        Destroy(gameObject);
+        // TRAVA DE SEGURANÇA DUPLA: Antes de finalmente destruir, 
+        // confere se ele AINDA está se movendo. Vai que ele bateu em algo e parou fora da tela!
+        if (state == ShellState.Moving || state == ShellState.VerticallyBouncing)
+        {
+            Destroy(gameObject);
+        }
     }
-
 }

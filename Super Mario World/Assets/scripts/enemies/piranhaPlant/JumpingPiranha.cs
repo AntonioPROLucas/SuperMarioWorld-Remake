@@ -43,7 +43,7 @@ public class JumpingPiranha : EnemyBase
     {
         if (isJumping)
         {
-            if (rbPlant.velocity.y > 0) rbPlant.gravityScale = gravityGoingUp;
+            if (rbPlant.linearVelocity.y > 0) rbPlant.gravityScale = gravityGoingUp;
             else rbPlant.gravityScale = gravityFalling;
         }
     }
@@ -53,7 +53,7 @@ public class JumpingPiranha : EnemyBase
         while (true)
         {
             // 1. Espera dentro
-            rbPlant.velocity = Vector2.zero;
+            rbPlant.linearVelocity = Vector2.zero;
             rbPlant.gravityScale = 0;
             transform.position = startPos; 
             isJumping = false;
@@ -73,7 +73,7 @@ public class JumpingPiranha : EnemyBase
 
             // 3. PULO
             isJumping = true;
-            rbPlant.velocity = Vector2.up * jumpForce;
+            rbPlant.linearVelocity = Vector2.up * jumpForce;
 
             yield return new WaitForSeconds(0.5f); 
             
@@ -106,7 +106,7 @@ public class JumpingPiranha : EnemyBase
         {
             // Empurra o Mario para cima levemente (feedback de erro)
             Rigidbody2D playerRb = player.GetComponent<Rigidbody2D>();
-            if(playerRb) playerRb.velocity = new Vector2(playerRb.velocity.x, 5f);
+            if(playerRb) playerRb.linearVelocity = new Vector2(playerRb.linearVelocity.x, 5f);
             
             mario.TakeDamage();
         }

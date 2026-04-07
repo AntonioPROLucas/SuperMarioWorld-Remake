@@ -48,7 +48,7 @@ public class WarpPipe : MonoBehaviour
 
         if (mario) mario.enabled = false;
         if (move) move.enabled = false;
-        if (rb) { rb.velocity = Vector2.zero; rb.isKinematic = true; }
+        if (rb) { rb.linearVelocity = Vector2.zero; rb.isKinematic = true; }
         if (col) col.enabled = false; // Desliga colisão para passar pela parede do tubo
 
         // 2. Animação de Entrada (Entrando no cano)
