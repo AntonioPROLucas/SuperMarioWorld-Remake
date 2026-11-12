@@ -22,9 +22,9 @@ I developed it between **May 2025 and April 2026**, alongside my Computer Scienc
 
 | | |
 |---|---|
-| ![Mario and Chargin' Chuck](docs/screenshots/gameplay-01.png) | ![Mario riding Yoshi](docs/screenshots/gameplay-02.png) |
+| ![Start of the level](docs/screenshots/gameplay-01.png) | ![Mario riding Yoshi](docs/screenshots/gameplay-02.png) |
 | ![Monty Moles and blocks](docs/screenshots/gameplay-03.png) | ![Yoshi using his tongue](docs/screenshots/gameplay-04.png) |
-| ![Mario carrying a shell](docs/screenshots/gameplay-05.png) | |
+| ![Mario carrying a shell](docs/screenshots/gameplay-05.png) | ![Mario and Chargin' Chuck](docs/screenshots/gameplay-06.png) | 
 
 ## Features
 

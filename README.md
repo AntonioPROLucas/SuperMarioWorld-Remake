@@ -22,9 +22,9 @@ Foi desenvolvido por mim, entre **maio de 2025 e abril de 2026**, em paralelo à
 
 | | |
 |---|---|
-| ![Mario e Chargin' Chuck](docs/screenshots/gameplay-01.png) | ![Mario montado no Yoshi](docs/screenshots/gameplay-02.png) |
+| ![Começo do jogo](docs/screenshots/gameplay-01.png) | ![Mario montado no Yoshi](docs/screenshots/gameplay-02.png) |
 | ![Monty Moles e blocos](docs/screenshots/gameplay-03.png) | ![Yoshi usando a língua](docs/screenshots/gameplay-04.png) |
-| ![Mario carregando um casco](docs/screenshots/gameplay-05.png) | |
+| ![Mario carregando um casco](docs/screenshots/gameplay-05.png) | ![Mario e Chargin' Chuck](docs/screenshots/gameplay-06.png) |
 
 ## Funcionalidades
 
