@@ -33,13 +33,12 @@ public class CharginChuck : EnemyBase
         // Pega as referências
         rbChuck = GetComponent<Rigidbody2D>();
         animChuck = GetComponent<Animator>();
-        // Removemos o 'base.Awake();' porque ele não existe na classe pai
     }
 
     protected override void Start()
     {
         base.Start();
-        // Acha o Mario na cena (Supondo que você tenha Mario.instance, senão usa FindObject)
+        // Acha o Mario na cena
         if (Mario.instance != null)
             playerTarget = Mario.instance.transform;
     }
@@ -194,7 +193,7 @@ public class CharginChuck : EnemyBase
             // Se o Mário bateu de lado (não veio de cima) e o Chuck está correndo
             if (contact.normal.y > -0.5f && currentState == ChuckState.Charging)
             {
-                /* * Quando tiver as animações do Mario pequeno, descomente a linha abaixo:
+                /* * Quando tiver as animações do Mario pequeno, devo descomentar a linha abaixo:
                  * OnLateralHit(collision.gameObject);
                  */
             }

@@ -36,7 +36,6 @@ public class YoshiEgg : MonoBehaviour
         yield return new WaitForSeconds(hatchDuration);
 
         // 2. DECISÃO LÓGICA: O Yoshi já existe na cena?
-        // Procuramos por qualquer objeto ativo que tenha o script Yoshi
         Yoshi existingYoshi = FindObjectOfType<Yoshi>();
 
         if (existingYoshi != null)
@@ -61,8 +60,6 @@ public class YoshiEgg : MonoBehaviour
         if (prefab != null)
         {
             GameObject item = Instantiate(prefab, transform.position, Quaternion.identity);
-            
-            // Se o item tiver lógica de "sair pulando" (como o cogumelo), ativamos aqui
             if (item.TryGetComponent<ItemBase>(out ItemBase itemScript))
             {
                 itemScript.LaunchItem();
@@ -77,7 +74,6 @@ public class YoshiEgg : MonoBehaviour
             GameObject yoshiObj = Instantiate(yoshiPrefab, transform.position, Quaternion.identity);
             
             // Chama a animação especial de nascimento no script do Yoshi
-            // (Vamos criar esse método abaixo!)
             if (yoshiObj.TryGetComponent<Yoshi>(out Yoshi yoshiScript))
             {
                 yoshiScript.PlayBirthAnimation(yoshiGrowthDuration);

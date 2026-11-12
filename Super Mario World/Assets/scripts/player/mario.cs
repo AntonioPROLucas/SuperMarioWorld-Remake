@@ -36,7 +36,7 @@ public class Mario : CharacterBase
     
     private SpriteRenderer[] allRenderers; 
 
-    // 🔨 VARIÁVEIS DA MARRETA DO PISCAR
+    // Efeito de piscar durante a invulnerabilidade
     private bool isFlashing = false;
     private float currentFlashAlpha = 1f;
     private float jumpCoolDown = 0f;
@@ -282,7 +282,7 @@ public class Mario : CharacterBase
             {
                 shell.StompedByPlayer(this.gameObject); 
                 PerformStompJump(); 
-                if (GameController.instance) GameController.instance.RegisterComboHit(hitEnemy.transform.position);
+                if (GameController.instance) GameController.instance.RegisterComboHit(shell.transform.position);
                 return; 
             }
 

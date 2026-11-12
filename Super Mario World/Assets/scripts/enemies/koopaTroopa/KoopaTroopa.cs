@@ -58,28 +58,8 @@ public class KoopaTroopa : EnemyBase
         if (activateOnVisible && !isActivated) return;
 
         if (isTurning || isDead || isKnockedBack) return;
-
-        // --- INÍCIO DO DEBUG DA PAREDE ---
         
-        // Em vez de retornar apenas true/false, vamos pegar O QUE ele bateu
         Collider2D hit = Physics2D.OverlapCircle(wallCheck.position, checkRadius, wallLayer);
-
-        if (hit != null)
-        {
-            // SE ELE ENTRAR AQUI, O SENSOR FUNCIONA
-            Debug.Log($"🚨 SENSOR ATIVADO! Bati em: {hit.name} (Layer: {LayerMask.LayerToName(hit.gameObject.layer)})");
-            
-            // Se aparecer essa mensagem no console e ele NÃO virar, 
-            // o problema está na Coroutine TurnRoutine.
-        }
-        else
-        {
-            // SE ELE ENTRAR AQUI ENQUANTO BATE NA PAREDE, O SENSOR ESTÁ CEGO
-            // (Descomente a linha abaixo se quiser ver no console, mas vai spammar muito)
-            // Debug.Log("👀 Não vejo nada na Layer Wall..."); 
-        }
-
-        // --- FIM DO DEBUG ---
         
         bool wallAhead = Physics2D.OverlapCircle(wallCheck.position, checkRadius, wallLayer);
         if (wallAhead) { StartCoroutine(TurnRoutine()); return; }

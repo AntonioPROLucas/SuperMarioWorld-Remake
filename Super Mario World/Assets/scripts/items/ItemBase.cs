@@ -17,13 +17,6 @@ public abstract class ItemBase : MonoBehaviour
             {
                 Collect(player);
             }
-            // Fallback: Se o Mario ainda não foi atualizado, tenta pegar o Mario antigo
-            // (Remova este else if depois de atualizar o Mario)
-            else if (other.TryGetComponent<Mario>(out Mario marioLegacy))
-            {
-                // Aqui teríamos um problema pois Collect exige CharacterBase.
-                // Por isso, PRECISAMOS atualizar o Mario na próxima etapa.
-            }
         }
     }
 }

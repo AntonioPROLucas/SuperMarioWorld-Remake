@@ -23,8 +23,7 @@ public class MarioMovement : MonoBehaviour
     public float smokeInterval = 0.05f; 
     private float lastSmokeTime;
 
-    // ✨ NOVAS VARIÁVEIS DA MONTARIA
-    [Header("Montaria (Yoshi)")]
+    // VARIÁVEIS DA MONTARIA
     [Header("Montaria (Yoshi)")]
     public KeyCode mountKey = KeyCode.LeftAlt; 
     public float yoshiMountRange = 2.5f;
@@ -346,7 +345,7 @@ public class MarioMovement : MonoBehaviour
     }
 
     // ==========================================
-    // 🦖 SISTEMA DE MONTARIA DE EMERGÊNCIA
+    // 🦖 COMANDO PARA MONTARIA
     // ==========================================
     private void HandleMountInput()
     {
